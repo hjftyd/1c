@@ -77,6 +77,9 @@
   <reports>Report.РискиПоПоказателям</reports>
   <reports>Report.СостояниеЗдоровьяПоГруппам</reports>
   <reports>Report.СтатистикаПрививок</reports>
+  <informationRegisters>InformationRegister.АллергииСтудентов</informationRegisters>
+  <informationRegisters>InformationRegister.КартаПрививок</informationRegisters>
+  <informationRegisters>InformationRegister.ОграниченияПоНагрузкам</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ИсторияПоказателейЗдоровья</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.МедСобытия</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.УчетПосещения</accumulationRegisters>

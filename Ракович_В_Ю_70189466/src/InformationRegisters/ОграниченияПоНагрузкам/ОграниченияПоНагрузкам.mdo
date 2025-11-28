@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4eea9ede-e165-43ba-af81-395831dc2e15">
+  <producedTypes>
+    <selectionType typeId="e991cf8e-981a-4f8e-8c36-15e1d82d9f93" valueTypeId="1fd48ad8-ff35-42af-b47a-3a125aeda20a"/>
+    <listType typeId="5f9457ce-bca3-4a63-b612-3d55bb3d78bd" valueTypeId="e8d57ebb-8baa-41ce-abde-4de9c7ce8d42"/>
+    <managerType typeId="4167b452-aae5-406f-8764-1772910d4610" valueTypeId="5ead8035-f08a-4766-877a-81375c4778ce"/>
+    <recordSetType typeId="cab96ea7-b0da-4c1f-8a26-1aa80f20c1ed" valueTypeId="e0c180df-0d5a-4270-9ab8-e3b6b62972d5"/>
+    <recordKeyType typeId="60dfa468-90c9-482c-b7f0-4194a8604633" valueTypeId="7007bb67-a5d1-45f5-902b-185c1aa047f0"/>
+    <recordType typeId="a9e75a3e-a68b-474d-bdde-10ec7fbd0288" valueTypeId="1db5ec25-531b-42f0-8ad8-60cb31ce4219"/>
+    <recordManagerType typeId="ea52f1f5-6cdd-47dd-8dd2-52caea9c840c" valueTypeId="7487669b-4d76-472e-923d-669797853dcb"/>
+  </producedTypes>
+  <name>ОграниченияПоНагрузкам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ограничения по нагрузкам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:InformationRegister>

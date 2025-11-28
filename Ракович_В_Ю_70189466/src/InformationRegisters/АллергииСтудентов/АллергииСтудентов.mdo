@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37f52224-e2a3-4516-94c0-40c9106e88fd">
+  <producedTypes>
+    <selectionType typeId="975ca491-57cf-42d8-9eff-b538f9eab00d" valueTypeId="b471c73d-3d7d-4f91-bc8d-f84344fa0b69"/>
+    <listType typeId="03589a74-3377-44cb-9a2c-56e98335a346" valueTypeId="802d1fd7-8ea4-4e3e-94bc-b30125aaac7f"/>
+    <managerType typeId="bb29ada8-d927-4ee4-bf42-d5d3978413d5" valueTypeId="a61a7023-c7bb-4200-894c-7322f263b098"/>
+    <recordSetType typeId="a3f888a8-4274-496b-bdab-3c354882ab96" valueTypeId="a0dd7214-6ff6-46a3-8577-8cd93031abef"/>
+    <recordKeyType typeId="b9febc75-2d9b-4d93-a4bb-ee25f398a135" valueTypeId="aba84ade-c493-4c74-90bb-cd5d932e9fe7"/>
+    <recordType typeId="3893b9bd-e5ad-417b-a72c-42c20869394f" valueTypeId="db8808d7-9a4d-4ab8-a1c8-ac7660ba30f0"/>
+    <recordManagerType typeId="429d963e-89e3-4923-b3a6-92bda833df31" valueTypeId="72c1eef8-1745-4245-aa56-54affed816d5"/>
+  </producedTypes>
+  <name>АллергииСтудентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аллергии студентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:InformationRegister>

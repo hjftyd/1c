@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9b783e1-da9d-420b-a29a-d194cf021c9c">
+  <producedTypes>
+    <selectionType typeId="08a804a6-fa2e-4fa4-b713-31ecc71895f5" valueTypeId="b1cdaf4f-b62e-494d-b246-488a14b15b14"/>
+    <listType typeId="07770cea-fbb7-4914-9bb0-1e11f21a0564" valueTypeId="f6269fc6-85bb-43d6-bb06-32f47c01fa48"/>
+    <managerType typeId="881060ca-e08b-4d41-b17e-5ebf255d0b14" valueTypeId="1e1c6eaa-fae1-4bc2-8bbc-b22f12f99d86"/>
+    <recordSetType typeId="ecf3c194-8ae3-4368-9490-992fa2851802" valueTypeId="ff24a545-83ff-490d-b46c-9ecb98662939"/>
+    <recordKeyType typeId="d990d846-eea5-4220-9ddf-7a10dec13d90" valueTypeId="663a76dd-cedb-4172-bc32-1cf898d79ef7"/>
+    <recordType typeId="d2f81876-ccd9-4816-bf18-6ec53b797878" valueTypeId="13d12ac4-ca70-4fa5-9216-2e205f32f81f"/>
+    <recordManagerType typeId="3f6b42e5-1ebd-42ff-9251-8a328aa0d10e" valueTypeId="91e282dd-2a57-4c61-9d5c-5dc8644cc40b"/>
+  </producedTypes>
+  <name>КартаПрививок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Карта прививок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:InformationRegister>
