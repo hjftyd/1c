@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="986012a7-b579-4229-a3cb-8de5459db5c3">
+  <producedTypes>
+    <objectType typeId="fd8db0f1-6b4b-4b3f-90e2-eb48acc25003" valueTypeId="74f244a5-fceb-41bf-aa02-87193f9bde34"/>
+    <refType typeId="ea4d98cc-97df-4449-8db3-b2034a2c4f25" valueTypeId="6b5801f8-7f8a-4357-aa29-455ad4b67d3d"/>
+    <selectionType typeId="b28cb939-105b-4bd7-95fc-44bee2ae1ca4" valueTypeId="da55243b-60fe-463a-bf0b-da184d9d9100"/>
+    <listType typeId="d715b52d-8126-43ab-8662-eba3cd936f24" valueTypeId="2670ef66-b42e-4107-9f22-eef8bfbea7ba"/>
+    <managerType typeId="be9e0517-46b4-456d-afc9-bfcd67b87fcf" valueTypeId="898f2abc-8cdb-40db-8f4c-3857ea1e3aa3"/>
+  </producedTypes>
+  <name>РегистрацияПосещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация посещения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РегистрацияПосещения.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>
