@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff3244e8-fc1f-4a15-9fc4-7c7cab5a6a65">
+  <producedTypes>
+    <objectType typeId="e8818f3f-4f76-44fc-a256-a9a851f1df2c" valueTypeId="baf8d912-ccaf-44cd-8deb-797cae4a1601"/>
+    <refType typeId="bf389f3a-14b5-4c71-9572-b5f1c5858f8f" valueTypeId="5dfbc77c-5652-40ad-a886-eedc0abbeaba"/>
+    <selectionType typeId="e547ae71-6e08-4e71-8ed9-a406eae696c6" valueTypeId="5372ba91-b365-4ec3-9c37-240a27db9786"/>
+    <listType typeId="eaa62e50-6c64-45a2-a952-20a335e6f74a" valueTypeId="9d9f2b09-4b3a-4a3f-9b73-c2ac05bf43f9"/>
+    <managerType typeId="9ccc60a5-ec67-4646-8ead-cf584eb6000c" valueTypeId="5c222fe1-cc7a-4a00-a8e4-08c471c084f0"/>
+  </producedTypes>
+  <name>ИнцидентСоЗдоровьем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инцидент со здоровьем</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ИнцидентСоЗдоровьем.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>
