@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0818e45d-3033-4ca7-9967-a5a2c0da42b2">
+  <producedTypes>
+    <objectType typeId="0a9ec1f0-54ec-4f13-8f52-3a8c192e588b" valueTypeId="9cb3891c-48f3-4b63-89d6-2f4e5a30ca59"/>
+    <managerType typeId="3935a61e-eff8-497f-8ed5-e240d457ba87" valueTypeId="500a0d5d-70de-4604-93a8-1b4515e608bf"/>
+  </producedTypes>
+  <name>РискиПоПоказателям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Риски по показателям</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Report>
