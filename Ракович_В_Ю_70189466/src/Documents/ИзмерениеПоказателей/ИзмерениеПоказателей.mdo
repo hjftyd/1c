@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6eaa2ad4-9e51-426c-95a8-330d2c8956e0">
+  <producedTypes>
+    <objectType typeId="4d1dce5b-f75c-4ee1-ba5e-4a749ddf2db0" valueTypeId="f783566a-3d17-4f5e-881d-6b3b7c105311"/>
+    <refType typeId="e2caf3d4-5e5c-4bfe-bcb9-d433874c2daa" valueTypeId="0c1b744d-e305-4337-a9ea-084734485077"/>
+    <selectionType typeId="fceb25f3-6c24-4490-9d78-c4f3c031af4e" valueTypeId="88333be3-a4f0-4067-8e45-789b74749264"/>
+    <listType typeId="94c487b2-3229-448e-88d9-84c7a7bcfbb4" valueTypeId="8d2fc79a-b93b-4f28-9ea9-7a3fe19f060f"/>
+    <managerType typeId="b2c04a38-1cfb-4606-a9a1-004c57521828" valueTypeId="a209766b-c5c4-4361-8572-333b31e4b6d1"/>
+  </producedTypes>
+  <name>ИзмерениеПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Измерение показателей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ИзмерениеПоказателей.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>
