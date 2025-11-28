@@ -11,10 +11,10 @@
     <value>Допустимый порог температуры</value>
   </synonym>
   <type>
-    <types>String</types>
-    <stringQualifiers>
-      <length>10</length>
-    </stringQualifiers>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
   </type>
   <useStandardCommands>true</useStandardCommands>
   <minValue xsi:type="core:UndefinedValue"/>
