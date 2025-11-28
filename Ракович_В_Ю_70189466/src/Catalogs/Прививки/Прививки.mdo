@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2b9b6c9-05a5-47e2-9e06-c1f6c4554988">
+  <producedTypes>
+    <objectType typeId="69f1ff26-61e9-4642-b4dd-21437835ada1" valueTypeId="448495d1-adb9-48da-90d6-bb8419c79886"/>
+    <refType typeId="2538a8e3-927f-46e2-af30-e7a7be9bd50e" valueTypeId="24b32442-1410-46bd-ad79-cde30d1e3466"/>
+    <selectionType typeId="301a8160-651d-4946-a165-8c01cd8accc8" valueTypeId="e8f6b66b-3317-4d56-a75d-9976be2b87c4"/>
+    <listType typeId="aa3476e2-9ed3-44bf-9494-639451691347" valueTypeId="9e14474b-f7a1-4d5c-965e-5651c2ae059c"/>
+    <managerType typeId="cecbe755-a61c-4c2b-9126-ab77c5f21a4c" valueTypeId="412ccb09-a786-4aa6-8235-c82244e22ddc"/>
+  </producedTypes>
+  <name>Прививки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прививки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Прививки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Прививки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
