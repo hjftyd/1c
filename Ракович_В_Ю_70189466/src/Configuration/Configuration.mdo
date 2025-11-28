@@ -51,4 +51,5 @@
   <catalogs>Catalog.ТипыЗамечаний</catalogs>
   <catalogs>Catalog.ТипыМедОсмотров</catalogs>
   <catalogs>Catalog.ТипыНагрузок</catalogs>
+  <catalogs>Catalog.ФизическиеПоказатели</catalogs>
 </mdclass:Configuration>
