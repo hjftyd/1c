@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f1be57a-175b-4b21-9d12-76cb79195058">
+  <producedTypes>
+    <objectType typeId="82adae0a-aac3-4842-a512-9057d40c49fb" valueTypeId="8bcbac12-74cb-44dd-bae7-ad1891ecfcda"/>
+    <managerType typeId="a6a8efbe-d5a3-42f1-8513-d18bb5cc238b" valueTypeId="bd53ceff-2e66-45dc-ae33-e4528c5c2bff"/>
+  </producedTypes>
+  <name>ПосещаемостьПоПериодам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Посещаемость по периодам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Report>
