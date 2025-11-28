@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed762198-002a-432f-9807-c2ae3fe4f3ed">
+  <producedTypes>
+    <objectType typeId="9f8135b8-34a0-4572-b13d-52c8298b43a5" valueTypeId="770ff715-04d7-4e27-acf7-c8fab4c2dfff"/>
+    <refType typeId="93bedb73-7cb2-4991-99b5-cf3b81c124a8" valueTypeId="d51236b6-2c2d-4a15-8176-a5ed60fda51a"/>
+    <selectionType typeId="37d67da1-9810-434e-9fba-ac62910f4819" valueTypeId="8ecbdb6b-e5f4-4c17-bc0e-227efae35df8"/>
+    <listType typeId="d3d28815-0f99-4ea8-9c83-2942ca61b730" valueTypeId="309c30a8-41a5-42e8-b659-9588858de77a"/>
+    <managerType typeId="3e2397fd-4d06-441c-b8c0-efb8bfe2b39e" valueTypeId="01dce36d-d6bb-4af4-b06b-cddf77dc2fe4"/>
+  </producedTypes>
+  <name>Заболевания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заболевания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Заболевания.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Заболевания.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

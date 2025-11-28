@@ -39,6 +39,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <catalogs>Catalog.Группы</catalogs>
+  <catalogs>Catalog.Заболевания</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Студенты</catalogs>
 </mdclass:Configuration>
