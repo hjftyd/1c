@@ -38,6 +38,10 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <subsystems>Subsystem.АналитикаИОтчетность</subsystems>
+  <subsystems>Subsystem.МедицинскиеСобытия</subsystems>
+  <subsystems>Subsystem.ОсновныеСправочники</subsystems>
   <constants>Constant.ДопустимыйПорогТемпературы</constants>
   <constants>Constant.МинимальныйПульсДляЗанятий</constants>
   <catalogs>Catalog.Группы</catalogs>

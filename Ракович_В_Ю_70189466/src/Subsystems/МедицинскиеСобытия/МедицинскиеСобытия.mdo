@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f3355aa-9b42-4535-a199-a4cc5a2bd5cc">
+  <name>МедицинскиеСобытия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Медицинские события</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+</mdclass:Subsystem>
