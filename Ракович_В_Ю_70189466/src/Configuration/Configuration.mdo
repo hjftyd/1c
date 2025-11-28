@@ -57,4 +57,5 @@
   <documents>Document.ЗаболеваниеСтудента</documents>
   <documents>Document.ИзмерениеПоказателей</documents>
   <documents>Document.МедОсмотр</documents>
+  <documents>Document.ОсвобождениеОтСпорта</documents>
 </mdclass:Configuration>

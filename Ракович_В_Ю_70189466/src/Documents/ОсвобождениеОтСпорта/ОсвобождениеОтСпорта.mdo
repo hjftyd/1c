@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5ab8440-8529-4267-8711-3b06a8771a35">
+  <producedTypes>
+    <objectType typeId="67a23034-a335-455c-8968-4928807b32f7" valueTypeId="b7d2b959-718b-48a0-8350-defb6b000ce8"/>
+    <refType typeId="c9756af9-6984-4d39-8459-27381b1c70d9" valueTypeId="f4f02a7c-cfbf-41af-aaba-a46ef2c54349"/>
+    <selectionType typeId="433b6fe2-0e66-4240-8827-b4e0323b20a3" valueTypeId="d85e24f5-a1f2-48aa-8791-ffff30342362"/>
+    <listType typeId="446a7daa-db90-4f7b-bcee-083bb46a0979" valueTypeId="9ab34f34-4987-4b51-8127-4620b3886d59"/>
+    <managerType typeId="30e130c2-865a-4338-81ac-e358d7336977" valueTypeId="f490e37e-0fa8-437e-88d0-2392746ff30a"/>
+  </producedTypes>
+  <name>ОсвобождениеОтСпорта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Освобождение от спорта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОсвобождениеОтСпорта.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>
