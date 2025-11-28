@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4dd65481-c9d3-4bb6-918a-f215426b7903">
+  <producedTypes>
+    <managerType typeId="5d7fd287-fe51-4d56-8cc4-7f4eef9a65b6" valueTypeId="17e6f656-6e99-4afc-bf09-4f8299ab4211"/>
+    <valueManagerType typeId="d38fa5b5-769c-47d7-b7ac-8671dae038d1" valueTypeId="263efc47-914e-49a5-8a8e-be09de4d8da5"/>
+    <valueKeyType typeId="65afbea2-ec01-4860-8b97-833c1a686ecc" valueTypeId="9b2d26b8-27f4-41c8-b484-f4b498f9e3e0"/>
+  </producedTypes>
+  <name>МинимальныйПульсДляЗанятий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Минимальный пульс для занятий</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
