@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a53f3e1f-ca9f-44aa-ab25-6d6afa889df4">
+  <producedTypes>
+    <objectType typeId="ec4f5485-cadf-4935-97d3-b031d14ade64" valueTypeId="15be0da4-087a-4b84-94f6-a2e6dd9db6bb"/>
+    <refType typeId="a9572827-4659-4d5c-9b9a-512100a55136" valueTypeId="619e125e-1895-4cdd-8922-fadd1761d1c2"/>
+    <selectionType typeId="b5b36a3e-6997-4ebb-ada8-7b190781100a" valueTypeId="3857a14d-a072-4bf3-8e80-016c29073939"/>
+    <listType typeId="22099293-fbef-474a-9f0a-21f24dd3bf14" valueTypeId="4ebe857e-0336-4a86-bc66-0d35691b9d81"/>
+    <managerType typeId="3ebd247f-6089-4a96-b847-d7aa387af48c" valueTypeId="fbd1a15c-dc2a-4dce-951a-1ed4ebc1e42a"/>
+  </producedTypes>
+  <name>Лекарства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лекарства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Лекарства.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Лекарства.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

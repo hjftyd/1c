@@ -40,6 +40,7 @@
   </languages>
   <catalogs>Catalog.Группы</catalogs>
   <catalogs>Catalog.Заболевания</catalogs>
+  <catalogs>Catalog.Лекарства</catalogs>
   <catalogs>Catalog.МедУчреждения</catalogs>
   <catalogs>Catalog.Прививки</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
