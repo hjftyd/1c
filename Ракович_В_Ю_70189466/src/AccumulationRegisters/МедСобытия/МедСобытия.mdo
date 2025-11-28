@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2994705b-f8b6-4522-8316-2ef090f04d47">
+  <producedTypes>
+    <selectionType typeId="7ee887ea-c458-41c7-ace1-94e41749e0a4" valueTypeId="c76db7e5-e7d4-41b0-b695-b5149bbd1726"/>
+    <listType typeId="ebb559d2-ee28-4508-977b-41df777586e0" valueTypeId="de601b20-d86c-4dfc-ae8d-ecd47e73b9b7"/>
+    <managerType typeId="6a098800-ca90-48d4-8eed-df1688380435" valueTypeId="0362e91b-cc90-4aa7-8e2a-2e4783cee0a9"/>
+    <recordSetType typeId="1b118ec0-a3df-4c5f-8253-5c6604346194" valueTypeId="021cab96-5827-45a3-b1d4-255a0e5f61a2"/>
+    <recordKeyType typeId="25e90ee3-79ed-44fe-95dd-a3c3b346fb7f" valueTypeId="4047af5e-4212-49ba-bad5-b18653192ce7"/>
+    <recordType typeId="7ae92de8-a643-44e3-b632-806878385916" valueTypeId="6f855e4e-3d07-46c0-8ed6-cc57112a8b15"/>
+  </producedTypes>
+  <name>МедСобытия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мед события</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+</mdclass:AccumulationRegister>

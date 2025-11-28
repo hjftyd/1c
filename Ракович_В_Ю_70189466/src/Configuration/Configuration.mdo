@@ -77,4 +77,7 @@
   <reports>Report.РискиПоПоказателям</reports>
   <reports>Report.СостояниеЗдоровьяПоГруппам</reports>
   <reports>Report.СтатистикаПрививок</reports>
+  <accumulationRegisters>AccumulationRegister.ИсторияПоказателейЗдоровья</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.МедСобытия</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.УчетПосещения</accumulationRegisters>
 </mdclass:Configuration>

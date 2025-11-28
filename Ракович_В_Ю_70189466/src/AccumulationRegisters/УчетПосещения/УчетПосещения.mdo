@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf2a594f-e895-4335-a11b-a13de3e84c0a">
+  <producedTypes>
+    <selectionType typeId="f955fb71-6890-425d-9703-e71664c7cd35" valueTypeId="38e54b96-46fe-44fe-b9d0-d69af5c3c96d"/>
+    <listType typeId="bea8df06-2c92-403f-8090-df88e10daafe" valueTypeId="fb2c0c39-933c-4f88-bf7f-d86118fb2f83"/>
+    <managerType typeId="145240df-66ef-4f63-9dbf-d5be50db4af2" valueTypeId="043d2a7e-89d6-4b6f-8133-c7242f69e4ea"/>
+    <recordSetType typeId="e4880d55-e038-407a-b43f-c618e9518be8" valueTypeId="e185e07a-7e4c-4394-be1b-844aea88e11d"/>
+    <recordKeyType typeId="c3665ffb-ae00-4bca-8151-389142c40318" valueTypeId="b8b4439d-8d87-47d6-813f-2fca11ff0eec"/>
+    <recordType typeId="46231e1b-8f71-4a8a-aeb4-62daa11f0198" valueTypeId="c97dfc6e-7a6b-4a84-b843-974187f51aa7"/>
+  </producedTypes>
+  <name>УчетПосещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет посещения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+</mdclass:AccumulationRegister>
