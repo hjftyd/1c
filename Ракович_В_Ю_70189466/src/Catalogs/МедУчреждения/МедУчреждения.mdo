@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cba96433-2b67-4836-8336-b748cd438b9a">
+  <producedTypes>
+    <objectType typeId="34af6cad-af86-47b5-a0a2-d9442cbe5e0f" valueTypeId="cb252f32-30a0-46fa-bd83-4191e4efb793"/>
+    <refType typeId="d6825d78-16db-433a-9434-83f1a4c1de14" valueTypeId="dea9eba8-5fe1-4785-8eb8-70b4b885db9b"/>
+    <selectionType typeId="d52acf48-14a3-4cb1-9bad-f731d8e9e576" valueTypeId="9052bdea-4fff-4d66-bbe0-5258c1a71aeb"/>
+    <listType typeId="e0d92382-0f9b-426a-99ce-56a7080449e8" valueTypeId="28b7a5a0-3970-4775-9fc5-ba1d95fa7b8d"/>
+    <managerType typeId="9ef491d9-9992-445d-9ef9-270d38907142" valueTypeId="d06c1f69-61eb-4b5f-9275-b5b40ffdc869"/>
+  </producedTypes>
+  <name>МедУчреждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мед учреждения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МедУчреждения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.МедУчреждения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
