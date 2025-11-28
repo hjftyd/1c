@@ -57,6 +57,7 @@
   <documents>Document.ЗаболеваниеСтудента</documents>
   <documents>Document.ИзмерениеПоказателей</documents>
   <documents>Document.ИнцидентСоЗдоровьем</documents>
+  <documents>Document.ЛекарственноеНазначение</documents>
   <documents>Document.МедОсмотр</documents>
   <documents>Document.НаправлениеКВрачу</documents>
   <documents>Document.ОсвобождениеОтСпорта</documents>
