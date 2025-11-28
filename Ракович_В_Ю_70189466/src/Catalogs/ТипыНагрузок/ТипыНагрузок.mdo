@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a92f416a-8478-4fb3-b680-3bc5eec30fbb">
+  <producedTypes>
+    <objectType typeId="f025e35f-fa46-4a8c-93d2-c07d11b88827" valueTypeId="bb3da7fa-24ec-4980-8226-bdc52cf30c8d"/>
+    <refType typeId="b469ccc1-e3ca-4940-8276-09c9d75253df" valueTypeId="46b51391-b7f7-4a7f-abb6-e24a9adce5c9"/>
+    <selectionType typeId="9071af87-84f1-42b4-ba6b-93df76555f88" valueTypeId="be2b0510-88cb-4746-9f26-55d2c3082c70"/>
+    <listType typeId="2b763578-5021-4be7-8b90-5793d56493c2" valueTypeId="2f3f9e19-cab0-45a7-8870-e8f01cc1688d"/>
+    <managerType typeId="4714f320-d110-44fa-bcb7-976ac29ddd78" valueTypeId="2657333f-bc84-4a24-982d-abc6c506b2ac"/>
+  </producedTypes>
+  <name>ТипыНагрузок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы нагрузок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыНагрузок.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТипыНагрузок.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
