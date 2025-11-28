@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ce1e60f-1792-4cfc-90de-c993c29e7372">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ce1e60f-1792-4cfc-90de-c993c29e7372">
   <producedTypes>
     <objectType typeId="0bf208d3-e059-40ca-b48e-40a836c39261" valueTypeId="94445df1-c8f7-4bd1-888c-b9a2caa11359"/>
     <refType typeId="8249dd9b-d830-42a3-ba09-f2d481b75c38" valueTypeId="7e663a49-60ff-4b7b-ae28-93dadce0c068"/>
@@ -30,4 +30,37 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2686359e-b036-42dd-82cc-bcc0699de2f8">
+    <name>Периодичность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="33214238-af26-420f-a085-facc74b276bf">
+    <name>ТребуетАнализы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требует анализы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
