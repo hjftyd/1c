@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8a3925a-ddc9-4dd2-8fc5-827164e66332">
+  <producedTypes>
+    <objectType typeId="db4d4ee4-e9e7-472b-a568-b57141e5f3d2" valueTypeId="900fed86-ab7c-4277-bcb3-872a1299b900"/>
+    <refType typeId="728fa0a5-9a9f-4578-ba7a-3c0c275aee2b" valueTypeId="1e7419af-f3b9-4467-ad3e-b46c6dd52fcc"/>
+    <selectionType typeId="2798868e-8828-45a5-b8f8-37d938ffc45c" valueTypeId="36e8adb4-109c-409a-a18a-4bf7e586178c"/>
+    <listType typeId="582f306c-6ef7-4a03-8525-963878940868" valueTypeId="40246dd0-4e4e-4254-9267-3aed5d9beeca"/>
+    <managerType typeId="c4672b54-537c-4fd9-8f6c-f960c10ff6d2" valueTypeId="3b4edc11-80da-4ce8-969a-a8b369ac122e"/>
+  </producedTypes>
+  <name>НаправлениеКВрачу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Направление к врачу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.НаправлениеКВрачу.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>
