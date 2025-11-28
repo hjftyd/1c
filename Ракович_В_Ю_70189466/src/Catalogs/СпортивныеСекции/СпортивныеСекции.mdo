@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a9db388-ff6b-4b35-9c9d-0c118df50287">
+  <producedTypes>
+    <objectType typeId="1054439a-09a6-41c5-8147-a68cd0909b30" valueTypeId="64097eb1-6e77-4064-b28b-e7ca3534aad9"/>
+    <refType typeId="20d92dab-4c51-43b0-b51b-8993f6e9924b" valueTypeId="160e5589-07d5-4150-b819-f564b355fd18"/>
+    <selectionType typeId="73701087-ca89-4de4-a5c0-bbf1fdfc558e" valueTypeId="f4ec28eb-68d3-4e90-a43b-91ee3b0cd38f"/>
+    <listType typeId="e8e082ba-de55-45de-b763-3a7755b9c74b" valueTypeId="47d22d41-2da7-43e7-94e9-ec2f8f0191d3"/>
+    <managerType typeId="c7e664aa-a1ce-4f59-b1b2-37e2079848c4" valueTypeId="53772c56-3277-480b-a27a-9f059257860f"/>
+  </producedTypes>
+  <name>СпортивныеСекции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Спортивные секции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СпортивныеСекции.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СпортивныеСекции.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
