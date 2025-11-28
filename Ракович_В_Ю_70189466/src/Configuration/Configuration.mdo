@@ -46,4 +46,5 @@
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.СпортивныеСекции</catalogs>
   <catalogs>Catalog.Студенты</catalogs>
+  <catalogs>Catalog.ТипыМедОсмотров</catalogs>
 </mdclass:Configuration>

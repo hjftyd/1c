@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ce1e60f-1792-4cfc-90de-c993c29e7372">
+  <producedTypes>
+    <objectType typeId="0bf208d3-e059-40ca-b48e-40a836c39261" valueTypeId="94445df1-c8f7-4bd1-888c-b9a2caa11359"/>
+    <refType typeId="8249dd9b-d830-42a3-ba09-f2d481b75c38" valueTypeId="7e663a49-60ff-4b7b-ae28-93dadce0c068"/>
+    <selectionType typeId="3a287c3f-3baa-44cf-931c-060ab17e6a48" valueTypeId="3e2e9695-1db4-4d3e-96bb-8a838c08fd87"/>
+    <listType typeId="84729076-9f27-475f-91d8-26bbda64ca49" valueTypeId="540d56c5-a0ec-4ef5-8840-e41386a4406f"/>
+    <managerType typeId="6eeac24e-2aab-4296-b84a-a4ad29d7f45b" valueTypeId="fa24a695-6ab6-4c93-8ef6-8cd0806c1071"/>
+  </producedTypes>
+  <name>ТипыМедОсмотров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы мед осмотров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыМедОсмотров.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТипыМедОсмотров.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
