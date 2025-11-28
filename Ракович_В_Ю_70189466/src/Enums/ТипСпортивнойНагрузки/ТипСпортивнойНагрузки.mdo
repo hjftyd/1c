@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1566bbdd-3d7f-4098-8c47-0c3a60835f86">
+  <producedTypes>
+    <refType typeId="18232e5f-4151-48c0-a2bf-314646131db3" valueTypeId="ae48886a-ce69-482a-80bd-992680a6fffb"/>
+    <listType typeId="beca051f-a3a6-4269-84dc-fbfa562650ab" valueTypeId="9d0a825b-a0df-4929-b041-2fb4ab44b148"/>
+    <managerType typeId="3733bcfa-c66c-478f-9aba-378425706bab" valueTypeId="dc2d1249-730e-4d3f-9746-1b0dc3963c1b"/>
+  </producedTypes>
+  <name>ТипСпортивнойНагрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип спортивной нагрузки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>

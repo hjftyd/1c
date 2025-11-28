@@ -67,4 +67,5 @@
   <documents>Document.РегистрацияПосещения</documents>
   <enums>Enum.Пол</enums>
   <enums>Enum.ТипСобытияЗдоровья</enums>
+  <enums>Enum.ТипСпортивнойНагрузки</enums>
 </mdclass:Configuration>
