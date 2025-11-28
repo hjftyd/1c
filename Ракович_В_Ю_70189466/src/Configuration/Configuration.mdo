@@ -70,4 +70,5 @@
   <enums>Enum.ТипСпортивнойНагрузки</enums>
   <reports>Report.ИсторияМедОсмотровСтудента</reports>
   <reports>Report.СостояниеЗдоровьяПоГруппам</reports>
+  <reports>Report.СтатистикаПрививок</reports>
 </mdclass:Configuration>

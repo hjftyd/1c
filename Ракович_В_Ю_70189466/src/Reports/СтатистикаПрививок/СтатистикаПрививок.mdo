@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac4391fb-7c9e-4034-95e7-c18cdcf7cba0">
+  <producedTypes>
+    <objectType typeId="6c49f5ea-063a-442d-80c8-55cb4dc0167d" valueTypeId="24d0fed6-106d-4066-a212-7716106f1c7f"/>
+    <managerType typeId="b99e8a5d-1558-4c1e-bba2-e6565097a64c" valueTypeId="f033cae4-744c-4feb-876f-49a1aefc5aaa"/>
+  </producedTypes>
+  <name>СтатистикаПрививок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика прививок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Report>
