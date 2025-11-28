@@ -38,6 +38,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <constants>Constant.ДопустимыйПорогТемпературы</constants>
   <catalogs>Catalog.Группы</catalogs>
   <catalogs>Catalog.Заболевания</catalogs>
   <catalogs>Catalog.Лекарства</catalogs>
