@@ -60,5 +60,6 @@
   <documents>Document.МедОсмотр</documents>
   <documents>Document.НаправлениеКВрачу</documents>
   <documents>Document.ОсвобождениеОтСпорта</documents>
+  <documents>Document.ОтсутствиеСтудента</documents>
   <documents>Document.РегистрацияПосещения</documents>
 </mdclass:Configuration>

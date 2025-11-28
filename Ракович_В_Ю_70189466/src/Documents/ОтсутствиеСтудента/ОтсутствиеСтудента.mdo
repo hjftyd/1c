@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12f37431-9da6-41c4-a300-d32665510cae">
+  <producedTypes>
+    <objectType typeId="79c145db-bf45-42a9-995c-182bc4b75907" valueTypeId="35bda1df-7459-4b35-9126-daa8619a51a8"/>
+    <refType typeId="d8cee286-40e1-449e-829f-ce71e588c1a1" valueTypeId="59fb8f01-6b82-4973-8ad8-ef354f1ae368"/>
+    <selectionType typeId="1736ec2c-5e24-4803-ba5e-ba217606d7b6" valueTypeId="5f08fcc7-f5af-4834-8b22-d4b33421dac1"/>
+    <listType typeId="737a3b23-892e-47eb-a3b7-d01acd96e7aa" valueTypeId="362f2893-70e3-40b7-a34e-4ea723c93e14"/>
+    <managerType typeId="37a8e788-465a-499c-8229-1a7dae82f1fd" valueTypeId="86c89150-c409-4d2b-ba7c-b37241fd910f"/>
+  </producedTypes>
+  <name>ОтсутствиеСтудента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отсутствие студента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОтсутствиеСтудента.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>
