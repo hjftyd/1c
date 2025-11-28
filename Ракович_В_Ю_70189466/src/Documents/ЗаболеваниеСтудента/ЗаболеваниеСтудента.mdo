@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc46401e-23dc-4027-a361-c2c96b5585ad">
+  <producedTypes>
+    <objectType typeId="ae5fdad0-b943-4f01-bc78-ce86c9baf2be" valueTypeId="e6e3c335-462d-4c42-959a-9776d5faccad"/>
+    <refType typeId="67c7981a-3a53-4d95-b198-a35e7b693080" valueTypeId="368ec45b-ea42-4115-b85c-29051d47c920"/>
+    <selectionType typeId="436e8537-c8a3-4d37-a3bb-e7a18798a3a3" valueTypeId="76f7b193-064e-456f-99cc-c4f0189f7766"/>
+    <listType typeId="712586b6-a124-4757-a6a0-8df60cf752d1" valueTypeId="3143ef50-b7af-415b-9f7d-96aaa4c5065f"/>
+    <managerType typeId="9e50c55f-d95a-4293-9fff-85b2e1fe2e8e" valueTypeId="8a818364-a03a-4cde-838b-b6376abeb805"/>
+  </producedTypes>
+  <name>ЗаболеваниеСтудента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заболевание студента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗаболеваниеСтудента.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

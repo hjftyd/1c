@@ -54,6 +54,7 @@
   <catalogs>Catalog.ТипыНагрузок</catalogs>
   <catalogs>Catalog.ФизическиеПоказатели</catalogs>
   <documents>Document.Вакцинация</documents>
+  <documents>Document.ЗаболеваниеСтудента</documents>
   <documents>Document.ИзмерениеПоказателей</documents>
   <documents>Document.МедОсмотр</documents>
 </mdclass:Configuration>
