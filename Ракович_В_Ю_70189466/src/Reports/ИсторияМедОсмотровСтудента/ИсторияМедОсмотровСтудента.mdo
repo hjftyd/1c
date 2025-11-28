@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="409b59ab-fc74-4730-82b4-d3e6cca689fa">
+  <producedTypes>
+    <objectType typeId="6a81fdc6-ceea-4131-9b2b-addb4c90f9ee" valueTypeId="33f59688-eac1-41c3-9220-25382ed33b6a"/>
+    <managerType typeId="56b55a0d-1ec9-44f9-af8a-f04a99345687" valueTypeId="134fb770-88d0-4840-9bba-49106f546cfa"/>
+  </producedTypes>
+  <name>ИсторияМедОсмотровСтудента</name>
+  <synonym>
+    <key>ru</key>
+    <value>История мед осмотров студента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Report>

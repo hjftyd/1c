@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ac52995-0528-4a13-b33e-739daa0355ae">
+  <producedTypes>
+    <objectType typeId="bc325eee-ca0e-4020-bd34-c694d5c95f2a" valueTypeId="758faa1e-29b5-44b3-b19a-04afbe114d4a"/>
+    <managerType typeId="52936603-bbac-412c-ad32-ab7a54049dbd" valueTypeId="1dfda65d-261c-49fc-8d83-d8250bdbabda"/>
+  </producedTypes>
+  <name>СостояниеЗдоровьяПоГруппам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние здоровья по группам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Report>
