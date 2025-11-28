@@ -43,6 +43,7 @@
   <catalogs>Catalog.Лекарства</catalogs>
   <catalogs>Catalog.МедУчреждения</catalogs>
   <catalogs>Catalog.Прививки</catalogs>
+  <catalogs>Catalog.СанитарныеГруппы</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.СпортивныеСекции</catalogs>
   <catalogs>Catalog.Студенты</catalogs>
