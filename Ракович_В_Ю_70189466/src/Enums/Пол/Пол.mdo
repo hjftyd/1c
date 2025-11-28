@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67d32f2c-d36d-4587-a6ea-0037811357b9">
+  <producedTypes>
+    <refType typeId="6e33af9a-90d9-4ff2-897c-766d59df0dba" valueTypeId="7cbd0499-62a7-4df7-8f80-d0ca3c4b401f"/>
+    <listType typeId="739bfe5e-1674-4ebb-ac28-c8a6ce84f03c" valueTypeId="a92ffda6-16dc-4a81-bba5-208d22f5f230"/>
+    <managerType typeId="2d74023f-8525-435a-a4a0-763f1fac8779" valueTypeId="f3753974-ed43-49fa-9b81-4fc5b8f79f7e"/>
+  </producedTypes>
+  <name>Пол</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пол</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>
