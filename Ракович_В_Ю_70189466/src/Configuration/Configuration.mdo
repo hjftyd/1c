@@ -42,6 +42,7 @@
   <catalogs>Catalog.Заболевания</catalogs>
   <catalogs>Catalog.Лекарства</catalogs>
   <catalogs>Catalog.МедУчреждения</catalogs>
+  <catalogs>Catalog.ПищевыеАллергены</catalogs>
   <catalogs>Catalog.Прививки</catalogs>
   <catalogs>Catalog.Родители</catalogs>
   <catalogs>Catalog.СанитарныеГруппы</catalogs>

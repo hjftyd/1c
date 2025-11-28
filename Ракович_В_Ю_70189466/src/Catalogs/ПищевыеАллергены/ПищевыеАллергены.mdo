@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f48cca34-d8ed-4c6a-80a3-2f27ac694b1a">
+  <producedTypes>
+    <objectType typeId="b2871c7d-b46f-4a58-af5b-b7e8d31cfe98" valueTypeId="251d1a39-5d25-494a-889d-297b6c1ce695"/>
+    <refType typeId="2d4a659d-b0b9-43e4-ae2c-eef98da88873" valueTypeId="338135f8-2350-4aa1-b4eb-fa6a9e1315ab"/>
+    <selectionType typeId="8c7043dd-2ab4-4756-9539-278ef680db9c" valueTypeId="9b1a0305-1ed4-4d85-9d37-751260ed684a"/>
+    <listType typeId="b781ec99-ae59-4769-b710-5338af3f5de2" valueTypeId="53a1e4bf-6deb-4ca7-a0be-7d5a3205eff8"/>
+    <managerType typeId="0909041b-5642-4d96-bcc0-3b96345f5125" valueTypeId="6c06536c-f669-4645-9698-730962b5783b"/>
+  </producedTypes>
+  <name>ПищевыеАллергены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пищевые аллергены</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПищевыеАллергены.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПищевыеАллергены.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
