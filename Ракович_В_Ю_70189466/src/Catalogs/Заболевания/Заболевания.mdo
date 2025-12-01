@@ -30,11 +30,65 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="15208d85-61e4-4f8b-84ba-aa8693b72cff">
-    <name>Тип</name>
+  <attributes uuid="26641724-d014-40bb-baa3-1c4d3a66be18">
+    <name>КодМКБ10</name>
     <synonym>
       <key>ru</key>
-      <value>Тип</value>
+      <value>Код МКБ10</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c75e14e8-1717-4631-ae55-3e83ec4ab6af">
+    <name>НаименованиеМКБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование МКБ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ae23bff1-876d-46dd-86f8-3a180f794133">
+    <name>Категория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="71a07c3e-f35d-4156-897c-3fbe912c11af">
+    <name>ТипЗаболевания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип заболевания</value>
     </synonym>
     <type>
       <types>EnumRef.ТипЗаболевания</types>
@@ -45,11 +99,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="20a1d8bc-8519-4816-a6bf-394f6b11cb54">
-    <name>Инфекционное</name>
+  <attributes uuid="894a1fcb-3f11-462b-8a3b-4b5bde7ca7e3">
+    <name>Заразность</name>
     <synonym>
       <key>ru</key>
-      <value>Инфекционное</value>
+      <value>Заразность</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -60,26 +114,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="bcc99968-d39e-4413-b43e-0c8051985a95">
-    <name>ТребуетИзоляции</name>
+  <attributes uuid="139fb622-d3c7-46a8-86b4-54bee080403e">
+    <name>ИнкубационныйПериод</name>
     <synonym>
       <key>ru</key>
-      <value>Требует изоляции</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="31fad088-8bc0-4b14-9497-86a21fcceac1">
-    <name>СредняяДлительность</name>
-    <synonym>
-      <key>ru</key>
-      <value>Средняя длительность</value>
+      <value>Инкубационный период</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -93,4 +132,241 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="61e785bb-d950-4d1d-a3d2-db9e8bb694e0">
+    <name>ДлительностьЛечения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность лечения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c03ae769-cd30-4ec2-8af6-503144dcc1eb">
+    <name>Сезонность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сезонность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="877b6266-5f75-457b-9316-38bfc71bb7a9">
+    <name>СтандартноеЛечение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартное лечение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fa2b7c47-91ae-4802-9062-2b8557abf418">
+    <name>Рекомендации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bb58d35c-aeac-42de-802c-22062149f1d7">
+    <name>НеобходимаИзоляция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Необходима изоляция</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f9766579-8c8e-4977-9d92-ede144ddd5ed">
+    <name>ОбязательноеУведомление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательное уведомление</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="b123e590-d423-46ff-a4d1-ca4642bb6bd1">
+    <producedTypes>
+      <objectType typeId="378edeab-51ad-4c29-933d-ea450d30010a" valueTypeId="b7a3d193-ae8a-4e37-9f35-8f7cc4fb54a6"/>
+      <rowType typeId="93644407-074c-4ae7-857b-7230b9d9c48c" valueTypeId="11157a05-38c7-4c0b-9521-896f07ab42d7"/>
+    </producedTypes>
+    <name>Симптомы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Симптомы</value>
+    </synonym>
+    <attributes uuid="e2616835-688a-48df-af48-f2ae9fe4b231">
+      <name>Симптом</name>
+      <synonym>
+        <key>ru</key>
+        <value>Симптом</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7030fb0f-bd86-4b47-926b-c3b5c7989a50">
+      <name>Частота</name>
+      <synonym>
+        <key>ru</key>
+        <value>Частота</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="25c89b09-127e-4b51-9652-bbe511399fef">
+    <producedTypes>
+      <objectType typeId="c4866bfa-ca1a-4ca7-a0c4-a98668df6c51" valueTypeId="2628176e-352e-4bd9-ac37-ff5fab64e355"/>
+      <rowType typeId="137c0ef0-b906-4bdd-b134-7fd89b690f45" valueTypeId="9ca4b8da-1072-41a9-ae62-18d38de31026"/>
+    </producedTypes>
+    <name>Осложнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Осложнения</value>
+    </synonym>
+    <attributes uuid="fcf87271-ee0f-4cde-b01e-e9c0950f227d">
+      <name>Осложнение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Осложнение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="82693da9-5f52-4cde-bc93-7f4f923ee0a4">
+      <name>Вероятность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вероятность</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="36222f22-a54d-45f9-a1a2-683fcf9de14d">
+    <producedTypes>
+      <objectType typeId="91abbc5f-23ef-495f-9a0c-29079e4aec77" valueTypeId="02c2b73c-0832-4c36-b81c-c461cabfce54"/>
+      <rowType typeId="6d2cb52a-4e06-475b-b314-d622294a6cef" valueTypeId="da1a99f6-6855-4b29-ab71-d3caf979e530"/>
+    </producedTypes>
+    <name>Профилактика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профилактика</value>
+    </synonym>
+    <attributes uuid="93c890da-3ed2-43b0-a245-95fd7350c16a">
+      <name>МераПрофилактики</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мера профилактики</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="12489c28-4271-4ee4-bfac-7454466a0c12">
+      <name>Эффективность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Эффективность</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Catalog>
