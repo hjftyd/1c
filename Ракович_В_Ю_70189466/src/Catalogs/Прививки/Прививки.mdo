@@ -30,16 +30,16 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="3770b8c3-56af-45d3-af8b-b5e2c4f6c99b">
-    <name>Описание</name>
+  <attributes uuid="d2fd4542-3c6a-475f-8035-9956f5311daa">
+    <name>КодПрививки</name>
     <synonym>
       <key>ru</key>
-      <value>Описание</value>
+      <value>Код прививки</value>
     </synonym>
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>150</length>
+        <length>20</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -48,43 +48,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="74b1331f-fc9b-441f-a991-f4e1d267ca92">
-    <name>СрокДействия</name>
-    <synonym>
-      <key>ru</key>
-      <value>Срок действия</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>30</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="499c414a-ae9e-40f3-b0b8-ed02931ed995">
-    <name>КоличествоДоз</name>
-    <synonym>
-      <key>ru</key>
-      <value>Количество доз</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="c0ca1c8d-9062-4a7b-8357-ad58d4e72323">
+  <attributes uuid="bec26b8b-e466-435d-919b-d9cec2f1168d">
     <name>Производитель</name>
     <synonym>
       <key>ru</key>
@@ -93,8 +57,204 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>80</length>
+        <length>100</length>
       </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a06072d1-84f5-4eb2-84aa-76d2538769c1">
+    <name>ТипВакцины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип вакцины</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5d102090-4b71-48a0-a871-c2b71136d558">
+    <name>Обязательная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательная</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d18b6f82-c306-4859-8da1-994823e30a05">
+    <name>Эффективность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эффективность</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <scale>1</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7844233e-0909-4f92-8040-9e09453a12a0">
+    <name>ПродолжительностьИммунитета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжительность иммунитета</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c85cd2fa-ddf4-470e-89c4-1027d49ef4cb">
+    <name>Противопоказания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Противопоказания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="21febb26-8ecf-4db4-915e-1a915bd96170">
+    <name>ЧастыеРеакции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частые реакции</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e8c8cf78-017e-48bb-9dca-d8dec0087322">
+    <name>РедкиеРеакции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редкие реакции</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="77835a82-3c83-48b8-950b-f66b31f38bef">
+    <name>ТяжелыеРеакции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тяжелые реакции</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7811ebcc-4445-4724-89e8-63d0c702b5f0">
+    <name>КоличествоДоз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество доз</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1b450ea1-f27d-43c2-a63a-2216b6157158">
+    <name>ИнтервалМеждуДозами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал между дозами</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6e728584-ad64-4335-9418-c8053986b6c3">
+    <name>ПериодичностьПовторения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность повторения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

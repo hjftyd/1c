@@ -30,16 +30,16 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="10d82f07-6f2c-4cee-b4f5-515b8caa8201">
-    <name>Адрес</name>
+  <attributes uuid="3f4d61a5-5ad1-4c53-8497-b07e7f260b7a">
+    <name>НомерКабинета</name>
     <synonym>
       <key>ru</key>
-      <value>Адрес</value>
+      <value>Номер кабинета</value>
     </synonym>
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>200</length>
+        <length>10</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -48,34 +48,67 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="0fefe6db-2712-4613-878c-aa6ae32d426c">
-    <name>Телефон</name>
+  <attributes uuid="39206d2f-f5f6-498f-8d92-c1c88278b16e">
+    <name>Назначение</name>
     <synonym>
       <key>ru</key>
-      <value>Телефон</value>
+      <value>Назначение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="71b91985-33e4-4435-a4cb-d26e12765afb">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="34c5ffcb-88db-4280-a24b-b2b61b8265f4">
+    <name>ГрафикРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>График работы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5fa6cc91-dfde-412e-bc69-78ef5b4bbb09">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
     </synonym>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>20</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="21557817-6a58-4eef-af1c-dd036d934347">
-    <name>КонтактноеЛицо</name>
-    <synonym>
-      <key>ru</key>
-      <value>Контактное лицо</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>

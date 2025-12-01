@@ -27,7 +27,7 @@
   <registerRecords>AccumulationRegister.ИсторияПоказателейЗдоровья</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="643e896d-f28a-40f8-81ef-a93abafdaaec">
+  <attributes uuid="d7ab5713-3320-4452-b5f4-eafd2cce72bd">
     <name>Студент</name>
     <synonym>
       <key>ru</key>
@@ -42,40 +42,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="6e96f377-478f-4a5e-812a-18f1f4b2d8eb">
-    <name>Врач</name>
-    <synonym>
-      <key>ru</key>
-      <value>Врач</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Сотрудники</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="c7b2d009-4fec-4873-a621-899dd54615d4">
-    <name>ДатаОсмотра</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дата осмотра</value>
-    </synonym>
-    <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="8a94f191-e8b2-4d42-8f16-c1e8bc511969">
+  <attributes uuid="9f056d60-a68a-4477-be86-28ee4aaa9e19">
     <name>ТипОсмотра</name>
     <synonym>
       <key>ru</key>
@@ -90,16 +57,84 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="5e535573-f592-4617-9848-b90bd3ddbe2d">
-    <name>Заключение</name>
+  <attributes uuid="95045621-0ccf-4c7e-84e1-b7c5b7168f7e">
+    <name>МедРаботник</name>
     <synonym>
       <key>ru</key>
-      <value>Заключение</value>
+      <value>Мед работник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7264247b-973a-4fe7-95b7-ad3953591a1e">
+    <name>Кабинет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кабинет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КабинетыМедПункта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="62025fbc-bc36-4e92-b152-08249bf23f0d">
+    <name>Рост</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рост</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="be5c0cfd-671d-4705-93b3-1045d2050b85">
+    <name>Вес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0dd43da8-30f4-45b7-ab27-1c32de9bfb5d">
+    <name>АртериальноеДавление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Артериальное давление</value>
     </synonym>
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>200</length>
+        <length>10</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -108,14 +143,86 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="023ceed0-738d-4109-9c0f-801c4c6c0708">
-    <name>Кабинет</name>
+  <attributes uuid="f2e9447f-7ae3-4128-8aae-41edc8a7997b">
+    <name>Пульс</name>
     <synonym>
       <key>ru</key>
-      <value>Кабинет</value>
+      <value>Пульс</value>
     </synonym>
     <type>
-      <types>CatalogRef.КабинетыМедПункта</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fe2ef699-de89-4f7a-91b1-dce44c903da5">
+    <name>Температура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Температура</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <scale>1</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bfbd7958-be9d-492b-a067-23be8afd017f">
+    <name>Заключение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заключение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9db0dc26-44b2-4a0e-b047-03dd18671ffb">
+    <name>Рекомендации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3df91d08-d052-4246-810d-288005e823b7">
+    <name>ГруппаЗдоровья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа здоровья</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

@@ -31,14 +31,17 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="8e886e8c-7fa4-433e-a1a9-f3650e38375c">
-    <name>ТипПоказателя</name>
+  <attributes uuid="31d891cb-128c-4d84-b637-b1821078a284">
+    <name>НаименованиеПараметра</name>
     <synonym>
       <key>ru</key>
-      <value>Тип показателя</value>
+      <value>Наименование параметра</value>
     </synonym>
     <type>
-      <types>EnumRef.ТипДанныхПоказателя</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -46,16 +49,53 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="70c73241-454d-4c8a-a1c1-7642488c4d32">
-    <name>НормаМин</name>
+  <attributes uuid="0e6b8816-1445-4e45-af5c-b7608651bbdb">
+    <name>ТипКонтроля</name>
     <synonym>
       <key>ru</key>
-      <value>Норма мин</value>
+      <value>Тип контроля</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4a273e85-3cd5-4992-b523-683adec4739f">
+    <name>ЧастотаКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частота контроля</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b2fa5221-3373-42ee-9c88-f5ac59d50247">
+    <name>НижнийПорог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нижний порог</value>
     </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
         <precision>10</precision>
+        <scale>3</scale>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -64,17 +104,92 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="72a6d554-5045-446d-9ea4-03315c3325a5">
-    <name>НормаМакс</name>
+  <attributes uuid="3feffd36-d2df-427c-bd24-bab28c28d980">
+    <name>ВерхнийПорог</name>
     <synonym>
       <key>ru</key>
-      <value>Норма макс</value>
+      <value>Верхний порог</value>
     </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
         <precision>10</precision>
+        <scale>3</scale>
       </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f510e57a-9e34-4c42-b42a-4f0e3277c2ba">
+    <name>КритическийНижний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Критический нижний</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="66001d7b-22b5-4815-ba22-b6e25810b916">
+    <name>КритическийВерхний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Критический верхний</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5eeb2c80-8c2a-4880-b6a6-449703a9eecf">
+    <name>Срочность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срочность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d5013b13-1e3d-4265-b7cf-628289cc47d4">
+    <name>ДействиеПриПревышении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие при превышении</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

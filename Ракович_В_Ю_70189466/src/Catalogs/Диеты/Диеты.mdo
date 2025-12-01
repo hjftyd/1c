@@ -30,16 +30,16 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="5caeb0eb-0b4e-43e6-87d6-0bf03c8a8674">
-    <name>Описание</name>
+  <attributes uuid="1a58004e-4454-4c37-af8a-98b25efcfadf">
+    <name>ТипДиеты</name>
     <synonym>
       <key>ru</key>
-      <value>Описание</value>
+      <value>Тип диеты</value>
     </synonym>
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>200</length>
+        <length>50</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -48,14 +48,71 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="3729f9b4-7d5f-4550-ac05-3263494e8ffe">
-    <name>Терапевтическая</name>
+  <attributes uuid="0d25bbd6-44ed-4bec-87b1-e39a54391b5e">
+    <name>Показания</name>
     <synonym>
       <key>ru</key>
-      <value>Терапевтическая</value>
+      <value>Показания</value>
     </synonym>
     <type>
-      <types>Boolean</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="65c7d006-8daa-4f2b-9d53-66f6959c8cc1">
+    <name>Противопоказания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Противопоказания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cddb11e6-8b2b-47a8-a273-3f3f78d8bbd1">
+    <name>КоличествоПриемовПищи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество приемов пищи</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d0545c40-399b-431d-8070-29a3da8a0e08">
+    <name>Продолжительность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжительность</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

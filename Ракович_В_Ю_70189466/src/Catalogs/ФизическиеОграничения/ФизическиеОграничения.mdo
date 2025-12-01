@@ -30,7 +30,25 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="74c5d1d6-9809-43c4-92c3-6a1b32f1e557">
+  <attributes uuid="63f3f850-0f9e-485a-bdd8-ec6c6496ba20">
+    <name>ВидОграничения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид ограничения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c3b98731-278a-4f23-9c90-ae50c02d5ade">
     <name>Уровень</name>
     <synonym>
       <key>ru</key>
@@ -45,16 +63,52 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="527470b4-6aa6-425a-ad36-32b2f722ce06">
-    <name>Комментарий</name>
+  <attributes uuid="f129f6f1-70ea-4903-98ad-34f326f6d1a9">
+    <name>Причина</name>
     <synonym>
       <key>ru</key>
-      <value>Комментарий</value>
+      <value>Причина</value>
     </synonym>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3bb93c2e-3a67-40cb-88a1-a75c1b7e4a54">
+    <name>ЗапрещенныеВидыДеятельности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрещенные виды деятельности</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="02885361-f38a-43fb-9017-d21866f77314">
+    <name>РазрешенныеВидыДеятельности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешенные виды деятельности</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
