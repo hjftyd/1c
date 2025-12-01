@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2e3c314-7eff-4e6f-9c6b-29db4a248334">
+  <producedTypes>
+    <refType typeId="2b371733-ca80-4079-aa44-84606a013fd5" valueTypeId="117c0ed1-f830-4aa2-86b3-f15bc75db92e"/>
+    <listType typeId="3fd7ce55-9aaa-4140-b5be-db5fd0202169" valueTypeId="3af913dd-7b3a-4f47-9611-84b77a00e605"/>
+    <managerType typeId="2510b5f5-6ba4-4de5-a6e1-1170bb6c2f79" valueTypeId="37c08e39-0527-4f0c-828e-c3f0adc843f5"/>
+  </producedTypes>
+  <name>ТипЗаболевания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип заболевания</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>

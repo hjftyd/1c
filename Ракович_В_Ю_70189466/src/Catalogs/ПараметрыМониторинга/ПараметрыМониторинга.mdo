@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b8b6c9c-eb99-4558-8732-2eb133291912">
+  <producedTypes>
+    <objectType typeId="06e2f3e2-369d-49db-85c0-27811895cd18" valueTypeId="66d453c6-67c2-45c6-afa5-ef9448064662"/>
+    <refType typeId="b77f720a-61db-414c-9725-c615884c4136" valueTypeId="27bdeb82-a2ee-45bc-b743-a559ba0803a2"/>
+    <selectionType typeId="6becfce9-a46f-4cee-99b4-ed381f057157" valueTypeId="8268f91a-b881-4c0c-a4f7-6d126f5c07eb"/>
+    <listType typeId="a0e37488-1bf3-4ebb-ac13-68bb1d6d37d4" valueTypeId="bb471b65-ead9-4928-a683-d143eab604e0"/>
+    <managerType typeId="78c27f4e-f920-4813-970b-88d833ec9ad2" valueTypeId="2e82ef5a-bdbb-4995-8428-2aa940314617"/>
+  </producedTypes>
+  <name>ПараметрыМониторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры мониторинга</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПараметрыМониторинга.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПараметрыМониторинга.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="8e886e8c-7fa4-433e-a1a9-f3650e38375c">
+    <name>ТипПоказателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип показателя</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипДанныхПоказателя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="70c73241-454d-4c8a-a1c1-7642488c4d32">
+    <name>НормаМин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Норма мин</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="72a6d554-5045-446d-9ea4-03315c3325a5">
+    <name>НормаМакс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Норма макс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57976f8d-7793-4cb1-b3f3-ba5e2c23a1d1">
+  <producedTypes>
+    <refType typeId="e091a4d4-14c7-4bd8-94ad-ef640ff17007" valueTypeId="3f1af603-5403-4bb4-9e74-7e1943b7d9dc"/>
+    <listType typeId="435832cc-96b4-4cc2-aeec-820fb19fce78" valueTypeId="02082918-c620-44d3-9dae-24345c2c2c93"/>
+    <managerType typeId="6c758385-b5c1-4e53-af43-3862eefa9dad" valueTypeId="efe4c6c2-b5fb-48f2-8528-cf4911f2a279"/>
+  </producedTypes>
+  <name>УровеньОграничения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровень ограничения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>

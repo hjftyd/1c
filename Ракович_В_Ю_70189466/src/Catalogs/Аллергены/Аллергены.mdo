@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a9db388-ff6b-4b35-9c9d-0c118df50287">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39966ac2-7a06-476d-b360-4862ba09edae">
   <producedTypes>
-    <objectType typeId="1054439a-09a6-41c5-8147-a68cd0909b30" valueTypeId="64097eb1-6e77-4064-b28b-e7ca3534aad9"/>
-    <refType typeId="20d92dab-4c51-43b0-b51b-8993f6e9924b" valueTypeId="160e5589-07d5-4150-b819-f564b355fd18"/>
-    <selectionType typeId="73701087-ca89-4de4-a5c0-bbf1fdfc558e" valueTypeId="f4ec28eb-68d3-4e90-a43b-91ee3b0cd38f"/>
-    <listType typeId="e8e082ba-de55-45de-b763-3a7755b9c74b" valueTypeId="47d22d41-2da7-43e7-94e9-ec2f8f0191d3"/>
-    <managerType typeId="c7e664aa-a1ce-4f59-b1b2-37e2079848c4" valueTypeId="53772c56-3277-480b-a27a-9f059257860f"/>
+    <objectType typeId="5bed719c-1f1c-40b7-abd4-19e7bbd3b861" valueTypeId="755f1977-4e61-488d-b304-a7ea3830fbed"/>
+    <refType typeId="abc31975-dedc-4702-a657-718fb9735787" valueTypeId="8422d136-f9f5-4574-91a8-2bd26114ac7b"/>
+    <selectionType typeId="6744b19e-3ac3-4d9d-825c-bd49c5520550" valueTypeId="950e7a10-85ee-4836-b040-399d96588e98"/>
+    <listType typeId="9c94ab20-7edd-42ba-aec8-dc2795e05d60" valueTypeId="0414792a-8372-485a-9dad-9c1a9e036dd9"/>
+    <managerType typeId="df627d93-3786-49eb-8296-d9c4db474772" valueTypeId="dc05c898-9ddc-4621-adf8-282171a6da9b"/>
   </producedTypes>
-  <name>СпортивныеСекции</name>
+  <name>Аллергены</name>
   <synonym>
     <key>ru</key>
-    <value>Спортивные секции</value>
+    <value>Аллергены</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.СпортивныеСекции.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.СпортивныеСекции.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Аллергены.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Аллергены.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -30,14 +30,17 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="5cd30ace-8cf8-437e-b176-6e87536bd37d">
-    <name>Тренер</name>
+  <attributes uuid="48cd1264-38a1-49c6-82d9-7085c638b5b0">
+    <name>Тип</name>
     <synonym>
       <key>ru</key>
-      <value>Тренер</value>
+      <value>Тип</value>
     </synonym>
     <type>
-      <types>CatalogRef.Сотрудники</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -45,11 +48,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="60b87c3f-0e6c-4b07-8ab9-39b6b6315e4a">
-    <name>Интенсивность</name>
+  <attributes uuid="d7366dd0-15e3-4d54-aa6d-80c9ba84b953">
+    <name>Тяжесть</name>
     <synonym>
       <key>ru</key>
-      <value>Интенсивность</value>
+      <value>Тяжесть</value>
     </synonym>
     <type>
       <types>String</types>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e0ba0e0-e13b-4685-b630-19a5de8920c9">
+  <producedTypes>
+    <refType typeId="8a2ce340-a757-4332-a537-1af8e1f12dcb" valueTypeId="d01ad427-931e-4018-950f-5a2c3efddfaf"/>
+    <listType typeId="d6d70849-9372-47eb-bd02-6d86586038b7" valueTypeId="a70e2801-fc83-42c8-9e48-93d20908efbb"/>
+    <managerType typeId="6f62cd7b-1309-44e1-8a37-cec7006ac86a" valueTypeId="da571049-e21b-47b9-a4fc-63b4001b4b5d"/>
+  </producedTypes>
+  <name>ДолжностиПерсонала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности персонала</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>

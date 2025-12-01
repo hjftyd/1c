@@ -48,21 +48,21 @@
   <commonModules>CommonModule.МодульРасчетовЗдоровья</commonModules>
   <constants>Constant.ДопустимыйПорогТемпературы</constants>
   <constants>Constant.МинимальныйПульсДляЗанятий</constants>
+  <catalogs>Catalog.Аллергены</catalogs>
   <catalogs>Catalog.Группы</catalogs>
+  <catalogs>Catalog.Диеты</catalogs>
   <catalogs>Catalog.Заболевания</catalogs>
+  <catalogs>Catalog.КабинетыМедПункта</catalogs>
   <catalogs>Catalog.Лекарства</catalogs>
   <catalogs>Catalog.МедУчреждения</catalogs>
-  <catalogs>Catalog.ПищевыеАллергены</catalogs>
+  <catalogs>Catalog.ПараметрыМониторинга</catalogs>
+  <catalogs>Catalog.ПоказателиЗдоровья</catalogs>
   <catalogs>Catalog.Прививки</catalogs>
-  <catalogs>Catalog.Родители</catalogs>
-  <catalogs>Catalog.СанитарныеГруппы</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.СпортивныеСекции</catalogs>
   <catalogs>Catalog.Студенты</catalogs>
-  <catalogs>Catalog.ТипыЗамечаний</catalogs>
   <catalogs>Catalog.ТипыМедОсмотров</catalogs>
-  <catalogs>Catalog.ТипыНагрузок</catalogs>
-  <catalogs>Catalog.ФизическиеПоказатели</catalogs>
+  <catalogs>Catalog.ФизическиеОграничения</catalogs>
   <documents>Document.Вакцинация</documents>
   <documents>Document.ЗаболеваниеСтудента</documents>
   <documents>Document.ИзмерениеПоказателей</documents>
@@ -73,9 +73,13 @@
   <documents>Document.ОсвобождениеОтСпорта</documents>
   <documents>Document.ОтсутствиеСтудента</documents>
   <documents>Document.РегистрацияПосещения</documents>
+  <enums>Enum.ДолжностиПерсонала</enums>
   <enums>Enum.Пол</enums>
+  <enums>Enum.ТипДанныхПоказателя</enums>
+  <enums>Enum.ТипЗаболевания</enums>
   <enums>Enum.ТипСобытияЗдоровья</enums>
   <enums>Enum.ТипСпортивнойНагрузки</enums>
+  <enums>Enum.УровеньОграничения</enums>
   <reports>Report.ИсторияМедОсмотровСтудента</reports>
   <reports>Report.ПосещаемостьПоПериодам</reports>
   <reports>Report.РискиПоПоказателям</reports>

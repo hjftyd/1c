@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11e1e98c-39b9-41e5-94b8-a74495fd2ea3">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80cdfa5b-5022-43e2-909f-ffd5124a7511">
   <producedTypes>
-    <objectType typeId="e77309d2-72fb-4513-a675-cdfa4a47862a" valueTypeId="95e5380f-775e-4263-9cdd-0d52787c2014"/>
-    <refType typeId="9c18f421-7b4e-4dfd-b095-d667151a50f8" valueTypeId="f8db3398-ae93-4f45-9847-b59a49d81cfe"/>
-    <selectionType typeId="a1a50c57-31d1-4405-adf4-a725929d8e30" valueTypeId="2883a7d1-638b-4484-954f-51710f6b3974"/>
-    <listType typeId="ed77da06-8e00-4f04-8aab-dc4c18403dcc" valueTypeId="357665a6-a4d8-4abd-9909-940250321a0e"/>
-    <managerType typeId="ac004524-0d3b-4bca-b894-4aacf9be5119" valueTypeId="e3011567-f25b-4763-946d-d9d118208056"/>
+    <objectType typeId="683a26b4-983e-442b-85c4-dd7ffa2b4298" valueTypeId="7521f1fb-5c4c-45e9-b800-4f69fc2015dc"/>
+    <refType typeId="38ea6268-f5df-463d-8a57-86e7468c616b" valueTypeId="988c9e95-af78-4ce8-81b0-922b2d50b256"/>
+    <selectionType typeId="7bcf1ce0-3ce3-4dd7-8683-40df49a356c4" valueTypeId="9304458f-bac0-42b3-a06f-29138f4cbce7"/>
+    <listType typeId="8d8ed499-867c-40bf-aa16-9ed6469f2e11" valueTypeId="caeee304-2bb6-4691-8552-e719f45543d1"/>
+    <managerType typeId="c7818cef-2306-4cd2-85ab-fd49b053e1ee" valueTypeId="ea8ebf62-d6c0-4b95-bbf1-d1f749b2ff46"/>
   </producedTypes>
-  <name>Группы</name>
+  <name>КабинетыМедПункта</name>
   <synonym>
     <key>ru</key>
-    <value>Группы</value>
+    <value>Кабинеты мед пункта</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Группы.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Группы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КабинетыМедПункта.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.КабинетыМедПункта.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -31,31 +30,16 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="f4df7492-4942-4846-a4c4-4740523e2212">
-    <name>Куратор</name>
+  <attributes uuid="fb3d1b46-25c4-4833-a1dd-fcdc2c795324">
+    <name>Описание</name>
     <synonym>
       <key>ru</key>
-      <value>Куратор</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Сотрудники</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="57638e9b-1172-48a9-8684-ed97a3774090">
-    <name>Факультет</name>
-    <synonym>
-      <key>ru</key>
-      <value>Факультет</value>
+      <value>Описание</value>
     </synonym>
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>80</length>
+        <length>200</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -64,16 +48,34 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="b0d038cc-d999-4351-b531-46c42ddc5429">
-    <name>Специальность</name>
+  <attributes uuid="ee8624c4-15f2-4f7e-8619-f1734f6985cf">
+    <name>Этаж</name>
     <synonym>
       <key>ru</key>
-      <value>Специальность</value>
+      <value>Этаж</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="27b7d764-f9d0-4e56-863f-191112e392bb">
+    <name>Корпус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корпус</value>
     </synonym>
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>80</length>
+        <length>20</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>

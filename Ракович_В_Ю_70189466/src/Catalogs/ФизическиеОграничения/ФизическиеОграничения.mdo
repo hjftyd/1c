@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a9db388-ff6b-4b35-9c9d-0c118df50287">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e8b5015-106d-452b-b38f-54f81567f489">
   <producedTypes>
-    <objectType typeId="1054439a-09a6-41c5-8147-a68cd0909b30" valueTypeId="64097eb1-6e77-4064-b28b-e7ca3534aad9"/>
-    <refType typeId="20d92dab-4c51-43b0-b51b-8993f6e9924b" valueTypeId="160e5589-07d5-4150-b819-f564b355fd18"/>
-    <selectionType typeId="73701087-ca89-4de4-a5c0-bbf1fdfc558e" valueTypeId="f4ec28eb-68d3-4e90-a43b-91ee3b0cd38f"/>
-    <listType typeId="e8e082ba-de55-45de-b763-3a7755b9c74b" valueTypeId="47d22d41-2da7-43e7-94e9-ec2f8f0191d3"/>
-    <managerType typeId="c7e664aa-a1ce-4f59-b1b2-37e2079848c4" valueTypeId="53772c56-3277-480b-a27a-9f059257860f"/>
+    <objectType typeId="9e5bb45f-59e8-4173-ba83-921b87b226e6" valueTypeId="9017f676-861a-42cc-af49-cd9854478783"/>
+    <refType typeId="c3c835b7-b9e0-4dfe-bc74-8f32ba64a762" valueTypeId="41908fcd-1723-4655-b84f-e7d6bc891978"/>
+    <selectionType typeId="f3070655-41a2-4a69-b9e5-2472bfd2b398" valueTypeId="065fe34d-97df-43ca-9d4c-d39692797a2f"/>
+    <listType typeId="c34d7621-8d6d-46db-b3c4-61399ea99c3b" valueTypeId="384df1f1-06ef-429a-a914-c53c28bc6092"/>
+    <managerType typeId="4a440e1d-6f64-468e-a813-51566febe410" valueTypeId="bfbf5b51-7aba-478d-b9b1-35cd2c3a481a"/>
   </producedTypes>
-  <name>СпортивныеСекции</name>
+  <name>ФизическиеОграничения</name>
   <synonym>
     <key>ru</key>
-    <value>Спортивные секции</value>
+    <value>Физические ограничения</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.СпортивныеСекции.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.СпортивныеСекции.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ФизическиеОграничения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ФизическиеОграничения.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -30,14 +30,14 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="5cd30ace-8cf8-437e-b176-6e87536bd37d">
-    <name>Тренер</name>
+  <attributes uuid="74c5d1d6-9809-43c4-92c3-6a1b32f1e557">
+    <name>Уровень</name>
     <synonym>
       <key>ru</key>
-      <value>Тренер</value>
+      <value>Уровень</value>
     </synonym>
     <type>
-      <types>CatalogRef.Сотрудники</types>
+      <types>EnumRef.УровеньОграничения</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -45,16 +45,16 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="60b87c3f-0e6c-4b07-8ab9-39b6b6315e4a">
-    <name>Интенсивность</name>
+  <attributes uuid="527470b4-6aa6-425a-ad36-32b2f722ce06">
+    <name>Комментарий</name>
     <synonym>
       <key>ru</key>
-      <value>Интенсивность</value>
+      <value>Комментарий</value>
     </synonym>
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>20</length>
+        <length>200</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>

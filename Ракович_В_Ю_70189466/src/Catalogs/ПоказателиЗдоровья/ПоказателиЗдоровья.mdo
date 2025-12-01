@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97aa5d9b-ff3a-4502-965f-6d2cfed9a3da">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a92f416a-8478-4fb3-b680-3bc5eec30fbb">
   <producedTypes>
-    <objectType typeId="5ca0bbfa-9448-4515-98fd-184c891fd78b" valueTypeId="dfb67e8a-f949-4d2e-832a-0588db704c27"/>
-    <refType typeId="9172274c-ec3e-4054-8e65-514c0220d768" valueTypeId="283f8cb1-e58f-4023-8203-c0699ae316bf"/>
-    <selectionType typeId="896bab3b-1297-4cca-b839-961eebb53d69" valueTypeId="12cba948-1dd7-4a59-9a2b-c6dde8d9b97f"/>
-    <listType typeId="1644efd8-b5ad-4330-8f08-1fe49f7accdd" valueTypeId="95883ec6-b017-41ff-914e-9bf7b9eb48b3"/>
-    <managerType typeId="fead19b7-7381-41d2-a714-3f749995101d" valueTypeId="25728e3e-0ff3-46b6-8a7b-6998a91a0ed9"/>
+    <objectType typeId="f025e35f-fa46-4a8c-93d2-c07d11b88827" valueTypeId="bb3da7fa-24ec-4980-8226-bdc52cf30c8d"/>
+    <refType typeId="b469ccc1-e3ca-4940-8276-09c9d75253df" valueTypeId="46b51391-b7f7-4a7f-abb6-e24a9adce5c9"/>
+    <selectionType typeId="9071af87-84f1-42b4-ba6b-93df76555f88" valueTypeId="be2b0510-88cb-4746-9f26-55d2c3082c70"/>
+    <listType typeId="2b763578-5021-4be7-8b90-5793d56493c2" valueTypeId="2f3f9e19-cab0-45a7-8870-e8f01cc1688d"/>
+    <managerType typeId="4714f320-d110-44fa-bcb7-976ac29ddd78" valueTypeId="2657333f-bc84-4a24-982d-abc6c506b2ac"/>
   </producedTypes>
-  <name>Сотрудники</name>
+  <name>ПоказателиЗдоровья</name>
   <synonym>
     <key>ru</key>
-    <value>Сотрудники</value>
+    <value>Показатели здоровья</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Сотрудники.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Сотрудники.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПоказателиЗдоровья.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПоказателиЗдоровья.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -30,16 +30,16 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="6adf46b1-a1fa-4faa-8284-cebfc09501ab">
-    <name>ФИО</name>
+  <attributes uuid="4f937d17-d171-4c4e-bd32-0c951f46244a">
+    <name>ЕдиницаИзмерения</name>
     <synonym>
       <key>ru</key>
-      <value>ФИО</value>
+      <value>Единица измерения</value>
     </synonym>
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>150</length>
+        <length>15</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -48,14 +48,17 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="7b0f2c55-9944-43f5-8c45-48ac19b3d2fc">
-    <name>Должность</name>
+  <attributes uuid="469cd1d4-14ec-48fb-94dc-d41aa3052718">
+    <name>ДопустимыйМинимум</name>
     <synonym>
       <key>ru</key>
-      <value>Должность</value>
+      <value>Допустимый минимум</value>
     </synonym>
     <type>
-      <types>EnumRef.ДолжностиПерсонала</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -63,17 +66,17 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="a87f237f-1e81-4c58-9206-d3f357f904bc">
-    <name>Телефон</name>
+  <attributes uuid="85482114-aeba-4159-8235-bc8241894c31">
+    <name>ДопустимыйМаксимум</name>
     <synonym>
       <key>ru</key>
-      <value>Телефон</value>
+      <value>Допустимый максимум</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>20</length>
-      </stringQualifiers>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -81,11 +84,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="49d899f5-b305-41f4-adab-f3603a9dc2db">
-    <name>Email</name>
+  <attributes uuid="c6103629-48f7-4d4d-91ac-03728c87817f">
+    <name>Описание</name>
     <synonym>
       <key>ru</key>
-      <value>Email</value>
+      <value>Описание</value>
     </synonym>
     <type>
       <types>String</types>
