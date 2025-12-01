@@ -67,18 +67,17 @@
   <documents>Document.ЗаболеваниеСтудента</documents>
   <documents>Document.ИзмерениеПоказателей</documents>
   <documents>Document.ИнцидентСоЗдоровьем</documents>
-  <documents>Document.ЛекарственноеНазначение</documents>
   <documents>Document.МедОсмотр</documents>
+  <documents>Document.НазначениеЛекарств</documents>
   <documents>Document.НаправлениеКВрачу</documents>
   <documents>Document.ОсвобождениеОтСпорта</documents>
   <documents>Document.ОтсутствиеСтудента</documents>
   <documents>Document.РегистрацияПосещения</documents>
   <enums>Enum.ДолжностиПерсонала</enums>
   <enums>Enum.Пол</enums>
+  <enums>Enum.ПричиныОтсутствия</enums>
   <enums>Enum.ТипДанныхПоказателя</enums>
   <enums>Enum.ТипЗаболевания</enums>
-  <enums>Enum.ТипСобытияЗдоровья</enums>
-  <enums>Enum.ТипСпортивнойНагрузки</enums>
   <enums>Enum.УровеньОграничения</enums>
   <reports>Report.ИсторияМедОсмотровСтудента</reports>
   <reports>Report.ПосещаемостьПоПериодам</reports>
@@ -88,7 +87,8 @@
   <informationRegisters>InformationRegister.АллергииСтудентов</informationRegisters>
   <informationRegisters>InformationRegister.КартаПрививок</informationRegisters>
   <informationRegisters>InformationRegister.ОграниченияПоНагрузкам</informationRegisters>
+  <informationRegisters>InformationRegister.УчетПосещений</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.АгрегатПосещаемости</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВыдачаЛекарств</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ИсторияПоказателейЗдоровья</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.МедСобытия</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.УчетПосещения</accumulationRegisters>
 </mdclass:Configuration>

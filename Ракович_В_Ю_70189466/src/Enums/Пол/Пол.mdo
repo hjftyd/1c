@@ -12,4 +12,18 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f23ebb52-c243-43ff-a930-c8da46afc2c1">
+    <name>Муж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Муж</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7e681a14-d1e6-4654-979a-51f0f104392e">
+    <name>Жен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Жен</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

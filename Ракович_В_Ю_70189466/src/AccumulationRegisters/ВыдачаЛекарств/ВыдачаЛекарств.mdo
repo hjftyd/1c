@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0b82adf-1eb5-4b96-a2f8-c6e9d9dd44e4">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2994705b-f8b6-4522-8316-2ef090f04d47">
   <producedTypes>
-    <selectionType typeId="9c721356-23d4-4434-af27-6436aeb1b049" valueTypeId="4124474e-c5a9-4146-8bb4-4d5d460b1e37"/>
-    <listType typeId="514adae1-c7d9-4638-86d1-344e30e8417a" valueTypeId="4af499ae-bced-4be2-b5ca-cae743919530"/>
-    <managerType typeId="5980d70a-7e6a-474b-adb2-53df456f67c0" valueTypeId="47647e4c-a821-48c4-a5f7-ad97b1aead46"/>
-    <recordSetType typeId="fc562c98-f913-407f-8319-e133ed9c6dca" valueTypeId="abde338e-45b8-478a-bdd0-674754b0142d"/>
-    <recordKeyType typeId="0577a575-00b2-4c0b-99c1-a1b3592d0efe" valueTypeId="a616754b-5f6e-41ea-af73-3784eb233175"/>
-    <recordType typeId="4c80c1a4-c699-4df3-870f-c74566cd4a6e" valueTypeId="5c690beb-49c9-41a7-8a79-628153f36653"/>
+    <selectionType typeId="7ee887ea-c458-41c7-ace1-94e41749e0a4" valueTypeId="c76db7e5-e7d4-41b0-b695-b5149bbd1726"/>
+    <listType typeId="ebb559d2-ee28-4508-977b-41df777586e0" valueTypeId="de601b20-d86c-4dfc-ae8d-ecd47e73b9b7"/>
+    <managerType typeId="6a098800-ca90-48d4-8eed-df1688380435" valueTypeId="0362e91b-cc90-4aa7-8e2a-2e4783cee0a9"/>
+    <recordSetType typeId="1b118ec0-a3df-4c5f-8253-5c6604346194" valueTypeId="021cab96-5827-45a3-b1d4-255a0e5f61a2"/>
+    <recordKeyType typeId="25e90ee3-79ed-44fe-95dd-a3c3b346fb7f" valueTypeId="4047af5e-4212-49ba-bad5-b18653192ce7"/>
+    <recordType typeId="7ae92de8-a643-44e3-b632-806878385916" valueTypeId="6f855e4e-3d07-46c0-8ed6-cc57112a8b15"/>
   </producedTypes>
-  <name>ИсторияПоказателейЗдоровья</name>
+  <name>ВыдачаЛекарств</name>
   <synonym>
     <key>ru</key>
-    <value>История показателей здоровья</value>
+    <value>Выдача лекарств</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <registerType>Turnovers</registerType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
-  <resources uuid="0198d64c-acc6-41ab-8e9f-4d1e9e77fee9">
-    <name>Значение</name>
+  <resources uuid="9302bedd-28a8-4159-b089-426c39e6c3a6">
+    <name>КоличествоДоз</name>
     <synonym>
       <key>ru</key>
-      <value>Значение</value>
+      <value>Количество доз</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -33,7 +33,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <dimensions uuid="be4168ca-aa29-4a99-81df-22db371903d6">
+  <dimensions uuid="2a9b49bb-fe2a-4117-9902-609377b659a0">
     <name>Студент</name>
     <synonym>
       <key>ru</key>
@@ -47,25 +47,25 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
-  <dimensions uuid="d5837ff1-145e-40cc-a97a-200ba020ac4d">
-    <name>ТипПоказателя</name>
+  <dimensions uuid="5e24ec66-0097-4190-ac5d-89e5cc64f63a">
+    <name>Лекарство</name>
     <synonym>
       <key>ru</key>
-      <value>Тип показателя</value>
+      <value>Лекарство</value>
     </synonym>
     <type>
-      <types>CatalogRef.ПоказателиЗдоровья</types>
+      <types>CatalogRef.Лекарства</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
-  <dimensions uuid="6a362880-4ef4-4ef6-b5b0-3f72f5df9e01">
-    <name>ДатаИзмерения</name>
+  <dimensions uuid="c00f6f7c-bcae-44e6-be2a-8047cfd702fb">
+    <name>ДатаВыдачи</name>
     <synonym>
       <key>ru</key>
-      <value>Дата измерения</value>
+      <value>Дата выдачи</value>
     </synonym>
     <type>
       <types>Date</types>

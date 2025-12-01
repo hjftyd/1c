@@ -12,4 +12,25 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1d41d89a-100a-4901-b9b7-773c10243441">
+    <name>Врач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Врач</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c7b49efa-204d-4422-85d5-e15a556a8c3a">
+    <name>Медсестра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Медсестра</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="47dbc38b-340b-4d6b-a2e4-deb764cdcf21">
+    <name>Администратор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администратор</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

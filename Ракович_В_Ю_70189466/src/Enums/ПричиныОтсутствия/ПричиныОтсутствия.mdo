@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7cccbbc2-0633-48f1-9eb9-862bcfa8191a">
+  <producedTypes>
+    <refType typeId="2006dbdf-1fc4-4390-a0b9-d94debcedba1" valueTypeId="8e0d245b-46f3-402c-a943-93fce811f031"/>
+    <listType typeId="6fdf47dc-e51e-4c4e-8456-720849fc8f27" valueTypeId="204c0e89-0163-45c7-b2e9-5181e537f1cb"/>
+    <managerType typeId="3e91e4bf-cbb0-419d-80f3-846f57fc6318" valueTypeId="701b6e3a-7c96-4be4-b654-cf2c430a3f32"/>
+  </producedTypes>
+  <name>ПричиныОтсутствия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины отсутствия</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="701661d6-0495-4a3c-ab2e-5d8f70854e9c">
+    <name>Болезнь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Болезнь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="15b07a54-add0-45da-98e3-dd458a89d68c">
+    <name>СемейныеОбстоятельства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Семейные обстоятельства</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0404f41a-df97-476d-b8a4-1f68a64b2a69">
+    <name>Другое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другое</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21f93b5c-a5d7-4e04-b50f-d4807ab164a9">
+  <producedTypes>
+    <selectionType typeId="a1202074-2c1b-472c-89a1-f97509fbf39c" valueTypeId="cb8757ca-6a99-4eb3-bea6-2b1dff80fe8d"/>
+    <listType typeId="842cf2e6-52f3-4c3e-b426-8b3a14105178" valueTypeId="1c3c2221-b060-4867-9619-4d40067ac8ca"/>
+    <managerType typeId="3bb9165a-bcee-4ae1-9553-5f1711503bd4" valueTypeId="4d190183-f1ec-43ec-95c6-9f8d1b9a2158"/>
+    <recordSetType typeId="954b3b13-d902-4644-bc86-0ff2907bc0be" valueTypeId="5c0d2d9c-b16d-478f-b14a-d453a9747480"/>
+    <recordKeyType typeId="c2c5ad96-43dc-49e1-8738-1134c188273d" valueTypeId="2a4725b1-ab3b-49bb-8617-1b49934c4f5f"/>
+    <recordType typeId="825b2482-9a4c-46ee-8997-1a5b09ac7e42" valueTypeId="831686bc-cc26-491b-9335-47f56828711c"/>
+    <recordManagerType typeId="9f7b2272-294b-4025-975c-8aca81f51031" valueTypeId="d20b85b3-eb2a-45d0-abf6-282962cd773e"/>
+  </producedTypes>
+  <name>УчетПосещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет посещений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9221dafe-6126-4bbc-9a5a-9679521cc385">
+    <name>Присутствует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Присутствует</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ae89a54b-7ecf-4355-8d04-7beb6c21c40f">
+    <name>Студент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Студент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Студенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="39fc54f0-5ab5-47ac-b1c5-15d09a1697d6">
+    <name>ДатаПосещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата посещения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

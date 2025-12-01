@@ -12,4 +12,25 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5a0bd0d8-f302-4852-9449-1b8e4a23d522">
+    <name>Легкий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Легкий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="85deacfc-ffab-401b-bf79-f2d6f52f301f">
+    <name>Средний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средний</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a8f1beba-2018-4898-828f-0f7047470df1">
+    <name>Тяжелый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тяжелый</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
