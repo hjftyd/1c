@@ -45,7 +45,7 @@
   <roles>Role.Администратор</roles>
   <roles>Role.Куратор</roles>
   <roles>Role.МедРаботник</roles>
-  <commonModules>CommonModule.МодульРасчетовЗдоровья</commonModules>
+  <commonModules>CommonModule.РаботаСЗдоровьем</commonModules>
   <constants>Constant.ДопустимыйПорогТемпературы</constants>
   <constants>Constant.МинимальныйПульсДляЗанятий</constants>
   <catalogs>Catalog.Аллергены</catalogs>

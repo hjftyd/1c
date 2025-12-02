@@ -17,21 +17,142 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="9221dafe-6126-4bbc-9a5a-9679521cc385">
-    <name>Присутствует</name>
+  <attributes uuid="d55f07ef-67b7-40da-8672-4983e775a377">
+    <name>ВремяПрихода</name>
     <synonym>
       <key>ru</key>
-      <value>Присутствует</value>
+      <value>Время прихода</value>
     </synonym>
     <type>
-      <types>Boolean</types>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
+  </attributes>
+  <attributes uuid="ab0cc478-0791-43c0-81c6-55a49f8df226">
+    <name>ВремяУхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время ухода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1c1251d8-7644-4c06-88c6-f536a5167a80">
+    <name>Причина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5d724f9e-e301-458f-8ec0-81a1758cd126">
+    <name>ПринятыеМеры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принятые меры</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4adbdcb9-6c43-498f-a835-080afca68e8f">
+    <name>Температура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Температура</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <scale>1</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4a749f6e-1a1d-4676-ae29-e85171a6fde9">
+    <name>МедРаботник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мед работник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="57fb4526-9c65-4ce7-ace5-2ed6e697f891">
+    <name>Кабинет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кабинет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КабинетыМедПункта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="19b2f8ad-7490-4cf8-a265-2679229751b6">
+    <name>ДокументОснования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основания</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.РегистрацияПосещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="ae89a54b-7ecf-4355-8d04-7beb6c21c40f">
     <name>Студент</name>
     <synonym>

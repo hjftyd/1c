@@ -18,10 +18,10 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <resources uuid="4d00e71d-5629-44d2-9a59-32aa0b2ccf10">
-    <name>КоличествоПрисутствующих</name>
+    <name>КоличествоПосещений</name>
     <synonym>
       <key>ru</key>
-      <value>Количество присутствующих</value>
+      <value>Количество посещений</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -34,29 +34,59 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <resources uuid="de49ec83-c3fd-470d-a143-c6ea39a0996b">
-    <name>КоличествоОтсутствующих</name>
+    <name>СреднееВремяПриема</name>
     <synonym>
       <key>ru</key>
-      <value>Количество отсутствующих</value>
+      <value>Среднее время приема</value>
     </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>10</precision>
+        <precision>5</precision>
+        <scale>1</scale>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <dimensions uuid="afd21857-ec72-41d3-aede-b1e0cc55e3d2">
-    <name>Группа</name>
+  <attributes uuid="98d7a4d8-d4eb-4d85-9f28-297a0d052e9d">
+    <name>Кабинет</name>
     <synonym>
       <key>ru</key>
-      <value>Группа</value>
+      <value>Кабинет</value>
     </synonym>
     <type>
-      <types>CatalogRef.Группы</types>
+      <types>CatalogRef.КабинетыМедПункта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="3efc0d99-897a-4e17-a2ed-339331f00ae4">
+    <name>МедРаботник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мед работник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="afd21857-ec72-41d3-aede-b1e0cc55e3d2">
+    <name>ПричинаПосещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина посещения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -64,16 +94,30 @@
     <useInTotals>true</useInTotals>
   </dimensions>
   <dimensions uuid="818d7a78-da2b-4d3d-9d24-01e7716dc35f">
-    <name>ДатаПосещения</name>
+    <name>ПериодПосещения</name>
     <synonym>
       <key>ru</key>
-      <value>Дата посещения</value>
+      <value>Период посещения</value>
     </synonym>
     <type>
       <types>Date</types>
       <dateQualifiers>
         <dateFractions>Date</dateFractions>
       </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="3d495a19-ad8d-461d-b915-1f894c28a10e">
+    <name>Студент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Студент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Студенты</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

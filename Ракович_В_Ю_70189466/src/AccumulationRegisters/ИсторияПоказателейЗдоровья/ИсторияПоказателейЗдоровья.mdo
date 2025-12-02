@@ -26,13 +26,71 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>10</precision>
+        <precision>15</precision>
+        <scale>3</scale>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
+  <resources uuid="1149f6d2-3222-48ef-8abb-a536864b5848">
+    <name>ОтклонениеОтНормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонение от нормы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="d3bb94f5-2a30-464f-9ebf-b31deb833fad">
+    <name>ДокументОснования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основания</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="5795e29b-215f-4ecd-b50f-51e7dd37321e">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="2b941df0-b4fd-4c3d-822a-1e3874e6c589">
+    <name>Измерявший</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерявший</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
   <dimensions uuid="be4168ca-aa29-4a99-81df-22db371903d6">
     <name>Студент</name>
     <synonym>
@@ -48,10 +106,10 @@
     <useInTotals>true</useInTotals>
   </dimensions>
   <dimensions uuid="d5837ff1-145e-40cc-a97a-200ba020ac4d">
-    <name>ТипПоказателя</name>
+    <name>Показатель</name>
     <synonym>
       <key>ru</key>
-      <value>Тип показателя</value>
+      <value>Показатель</value>
     </synonym>
     <type>
       <types>CatalogRef.ПоказателиЗдоровья</types>
@@ -62,10 +120,10 @@
     <useInTotals>true</useInTotals>
   </dimensions>
   <dimensions uuid="6a362880-4ef4-4ef6-b5b0-3f72f5df9e01">
-    <name>ДатаИзмерения</name>
+    <name>ПериодИзмерения</name>
     <synonym>
       <key>ru</key>
-      <value>Дата измерения</value>
+      <value>Период измерения</value>
     </synonym>
     <type>
       <types>Date</types>

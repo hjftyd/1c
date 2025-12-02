@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cad379f0-2c7f-4078-a5eb-a9fdab902124">
-  <name>МодульРасчетовЗдоровья</name>
+  <name>РаботаСЗдоровьем</name>
   <synonym>
     <key>ru</key>
-    <value>Модуль расчетов здоровья</value>
+    <value>Работа с здоровьем</value>
   </synonym>
   <server>true</server>
   <externalConnection>true</externalConnection>

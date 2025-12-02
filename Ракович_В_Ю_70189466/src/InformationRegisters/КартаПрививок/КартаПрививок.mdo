@@ -17,11 +17,11 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="66e3e739-9c28-4713-bfed-8b0ca45d476e">
-    <name>ДатаПрививки</name>
+  <attributes uuid="474bf3fa-586e-4c41-8c09-5658af559bb4">
+    <name>ДатаВакцинации</name>
     <synonym>
       <key>ru</key>
-      <value>Дата прививки</value>
+      <value>Дата вакцинации</value>
     </synonym>
     <type>
       <types>Date</types>
@@ -34,12 +34,30 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
-  <resources uuid="f62a0611-94c5-44f1-bce7-fa3ec8f387de">
-    <name>ДействуетДо</name>
+  </attributes>
+  <attributes uuid="056701f9-c583-4a4c-9934-adec64c5e650">
+    <name>СерияВакцины</name>
     <synonym>
       <key>ru</key>
-      <value>Действует до</value>
+      <value>Серия вакцины</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a1b48253-725c-4613-9a7c-d9f77603a59e">
+    <name>СрокГодности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок годности</value>
     </synonym>
     <type>
       <types>Date</types>
@@ -52,7 +70,92 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
+  </attributes>
+  <attributes uuid="416c39f8-200e-43fa-9779-94cafc852cd2">
+    <name>Доза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доза</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="399250c0-7b80-4ecc-9bf5-cfeeffb490ca">
+    <name>Реакция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реакция</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fe9d9dd4-735c-4840-a739-bcf480b72769">
+    <name>МедРаботник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мед работник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="01659670-0884-4ee5-9cc5-4a4b1d3cb4c6">
+    <name>МестоВведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место введения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="24e79dec-4050-4abc-85b0-99e34695688c">
+    <name>ДокументОснования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основания</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Вакцинация</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="e628ca0b-0e94-4a67-82ef-dbab1682e1dd">
     <name>Студент</name>
     <synonym>
