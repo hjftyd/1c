@@ -41,10 +41,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="24d249a7-a137-4aeb-b30b-168ae975d0fc">
-    <name>Врач</name>
+    <name>МедРаботник</name>
     <synonym>
       <key>ru</key>
-      <value>Врач</value>
+      <value>Мед работник</value>
     </synonym>
     <type>
       <types>CatalogRef.Сотрудники</types>
@@ -97,7 +97,8 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>10</precision>
+        <precision>5</precision>
+        <scale>2</scale>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -117,6 +118,73 @@
       <stringQualifiers>
         <length>200</length>
       </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e7ba1bbb-65f3-4147-ac75-e2af9a313d0d">
+    <name>СерияВакцины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серия вакцины</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7ca34d16-835b-4de6-93c1-6fe6978ad260">
+    <name>Реакция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реакция</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dea1ccf7-bdbe-4791-82c7-bd7f3e184d46">
+    <name>ДатаСледующейВакцинации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата следующей вакцинации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7c3fe03b-7864-4a76-a0d5-bea15e946319">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыВакцинации</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

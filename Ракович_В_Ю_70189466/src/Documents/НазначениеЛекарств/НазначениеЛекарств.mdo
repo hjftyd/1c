@@ -23,6 +23,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ВыдачаЛекарств</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="497ab9a5-b25e-414f-8708-33d5e9496146">
@@ -33,21 +34,6 @@
     </synonym>
     <type>
       <types>CatalogRef.Студенты</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="2d502b17-670a-4436-9345-e29174d92e3d">
-    <name>Врач</name>
-    <synonym>
-      <key>ru</key>
-      <value>Врач</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Сотрудники</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -73,4 +59,166 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="182bcc6e-e9a6-4530-a9c5-328f09939fd4">
+    <name>Назначающий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначающий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="508ee36f-3de8-4008-836b-4e9594dcf139">
+    <name>СтатусНазначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус назначения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="56cdf411-d9bf-4d64-90bf-fa3193994653">
+    <name>ПричинаНазначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина назначения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="39f5eace-e7a7-4740-af82-33f01bff6e20">
+    <name>СпособПриема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ приема</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="f00eed66-3fbb-401e-baef-30e4b0e415e8">
+    <producedTypes>
+      <objectType typeId="55a6d8c1-07f3-4862-88eb-2ba8ce84d030" valueTypeId="f57f2295-8a34-4943-83ca-f81d72b9f017"/>
+      <rowType typeId="fb4d2bdd-9e8f-4ec6-a594-b8831eb6764c" valueTypeId="f76081ae-8758-4236-884c-303ce48f8de4"/>
+    </producedTypes>
+    <name>Лекарства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лекарства</value>
+    </synonym>
+    <attributes uuid="fbe4ae52-1785-4622-b35c-d85f47359495">
+      <name>Лекарство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Лекарство</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Лекарства</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3040419c-afd4-46c6-a917-a9cd92478fb9">
+      <name>Дозировка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дозировка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e8e62bb7-e857-44ce-94c3-d8df56202a8a">
+      <name>ПериодПриемаНачало</name>
+      <synonym>
+        <key>ru</key>
+        <value>Период приема начало</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="452f4589-73e7-4b8b-975a-1f682d427c42">
+      <name>ПериодПриемаОкончание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Период приема окончание</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="29bf7196-3e89-4cc8-be9c-02e851a4e0cf">
+      <name>СпособПриема</name>
+      <synonym>
+        <key>ru</key>
+        <value>Способ приема</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Document>

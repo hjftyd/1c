@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e9c82dd-ba24-430f-979b-0cb3e0c81a77">
+  <producedTypes>
+    <refType typeId="968cd29e-8840-4463-8132-e48cd310976c" valueTypeId="e6868a96-bbc4-4ccb-bce7-0d2813c0578d"/>
+    <listType typeId="9893e30e-a286-4ce5-b65b-d52c0a373327" valueTypeId="f34e1c83-f6e8-4ebe-8517-85ef84fde2c5"/>
+    <managerType typeId="fd32094d-c6c2-4fb0-8326-616394ebe45a" valueTypeId="51d12d59-eb5a-48cc-9385-02f2fe9eb31a"/>
+  </producedTypes>
+  <name>СтатусыВакцинации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы вакцинации</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>
