@@ -12,18 +12,18 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
-  <enumValues uuid="f23ebb52-c243-43ff-a930-c8da46afc2c1">
-    <name>Муж</name>
+  <enumValues uuid="cc1cb2c3-9154-42a6-bd07-9123458f8784">
+    <name>Мужской</name>
     <synonym>
       <key>ru</key>
-      <value>Муж</value>
+      <value>Мужской</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="7e681a14-d1e6-4654-979a-51f0f104392e">
-    <name>Жен</name>
+  <enumValues uuid="9653f0a1-e6b0-46e6-9d8c-75e208224c4f">
+    <name>Женский</name>
     <synonym>
       <key>ru</key>
-      <value>Жен</value>
+      <value>Женский</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

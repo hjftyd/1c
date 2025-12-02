@@ -12,25 +12,32 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
-  <enumValues uuid="5a0bd0d8-f302-4852-9449-1b8e4a23d522">
-    <name>Легкий</name>
+  <enumValues uuid="d1e0656f-94eb-4f89-8046-96cb3d4094e8">
+    <name>НетОграничений</name>
     <synonym>
       <key>ru</key>
-      <value>Легкий</value>
+      <value>Нет ограничений</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="85deacfc-ffab-401b-bf79-f2d6f52f301f">
-    <name>Средний</name>
+  <enumValues uuid="85140014-cd5e-43bc-9e1f-d2f3c5b20203">
+    <name>ЧастичныеОграничения</name>
     <synonym>
       <key>ru</key>
-      <value>Средний</value>
+      <value>Частичные ограничения</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="a8f1beba-2018-4898-828f-0f7047470df1">
-    <name>Тяжелый</name>
+  <enumValues uuid="e137d9a9-d4ea-46a6-8b6a-9bf4e37b5eb9">
+    <name>ПолныеОграничения</name>
     <synonym>
       <key>ru</key>
-      <value>Тяжелый</value>
+      <value>Полные ограничения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0dc9857b-521c-461b-9ca0-b2a966bee6f4">
+    <name>ВременноеОсвобождение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Временное освобождение</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

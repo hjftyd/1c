@@ -12,4 +12,32 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4ad1c319-8823-439f-bcf8-29c9785858d4">
+    <name>Острое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Острое</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="92396a57-bfb1-4205-b67e-3bb12ea348ba">
+    <name>Хроническое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хроническое</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e2c26f8f-eb3e-4b60-b282-33c7e7487332">
+    <name>Инфекционное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инфекционное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8a73f5c0-b496-44b1-9032-f175a64e7168">
+    <name>Паразитарное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Паразитарное</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

@@ -12,4 +12,32 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="be10b764-845f-4fec-ba5f-c4c1e27a7c93">
+    <name>Запланирована</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланирована</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad4a67e1-f653-42af-ad10-f3c1b91d132a">
+    <name>Выполнена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bc89d21b-3369-4b23-b948-6817a28a0269">
+    <name>Отложена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6f55dffe-a6d1-4e7e-9186-6ced4e5dab0c">
+    <name>Отменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменена</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

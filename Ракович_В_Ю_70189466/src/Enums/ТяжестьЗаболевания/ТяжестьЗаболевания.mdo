@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd777aee-5967-4355-8e9b-f0628ed636a6">
+  <producedTypes>
+    <refType typeId="fae1b03c-7dc1-446e-8fb0-3115373ba4b0" valueTypeId="73631a97-d315-4e65-9cca-bb1cbd54ccbf"/>
+    <listType typeId="9777dd92-5dc7-481e-a1c2-ec0a55db782d" valueTypeId="d68f7f0a-c2f7-4364-aaad-269952b909b4"/>
+    <managerType typeId="aa0d42ab-8b15-4e10-aa21-7b7bd7a63c1b" valueTypeId="862d3589-660c-49e1-bb64-678e599476cf"/>
+  </producedTypes>
+  <name>ТяжестьЗаболевания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тяжесть заболевания</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6c8cacfd-d502-4e88-b96d-66687010f3c6">
+    <name>Легкая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Легкая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="55f17776-7576-4715-ad25-b91029e1d5a7">
+    <name>Средняя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средняя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b725918-6579-41c3-b4de-1392b4c06963">
+    <name>Тяжелая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тяжелая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1aaf5fa1-a9f8-4219-8c3d-156e0ce148dc">
+    <name>Критическая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Критическая</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

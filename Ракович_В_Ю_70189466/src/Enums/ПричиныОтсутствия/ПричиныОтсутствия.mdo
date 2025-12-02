@@ -33,4 +33,11 @@
       <value>Другое</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="c1cc5f22-495e-46dd-a79e-ec78fc4cb8b4">
+    <name>ПрофилактическиеМероприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профилактические мероприятия</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

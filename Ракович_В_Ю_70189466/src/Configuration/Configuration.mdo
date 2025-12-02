@@ -76,9 +76,11 @@
   <enums>Enum.ДолжностиПерсонала</enums>
   <enums>Enum.Пол</enums>
   <enums>Enum.ПричиныОтсутствия</enums>
+  <enums>Enum.СтатусСтудента</enums>
   <enums>Enum.СтатусыВакцинации</enums>
   <enums>Enum.ТипДанныхПоказателя</enums>
   <enums>Enum.ТипЗаболевания</enums>
+  <enums>Enum.ТяжестьЗаболевания</enums>
   <enums>Enum.УровеньОграничения</enums>
   <reports>Report.ИсторияМедОсмотровСтудента</reports>
   <reports>Report.ПосещаемостьПоПериодам</reports>

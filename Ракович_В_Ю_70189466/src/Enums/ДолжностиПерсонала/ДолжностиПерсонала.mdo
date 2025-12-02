@@ -33,4 +33,25 @@
       <value>Администратор</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="d58d54ae-8b4e-4616-8718-624f88c319d0">
+    <name>Психолог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Психолог</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="16d50516-b2df-4247-a9fd-f56fadc07392">
+    <name>Диетолог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диетолог</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c1ea983-bfa0-43f0-a3f3-e6edd1893e71">
+    <name>Фельдшер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фельдшер</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
