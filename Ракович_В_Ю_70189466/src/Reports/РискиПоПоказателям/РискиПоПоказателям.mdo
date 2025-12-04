@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0818e45d-3033-4ca7-9967-a5a2c0da42b2">
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0818e45d-3033-4ca7-9967-a5a2c0da42b2">
   <producedTypes>
     <objectType typeId="0a9ec1f0-54ec-4f13-8f52-3a8c192e588b" valueTypeId="9cb3891c-48f3-4b63-89d6-2f4e5a30ca59"/>
     <managerType typeId="3935a61e-eff8-497f-8ed5-e240d457ba87" valueTypeId="500a0d5d-70de-4604-93a8-1b4515e608bf"/>
@@ -10,4 +10,49 @@
     <value>Риски по показателям</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="5bd7a77b-156f-486e-ae1e-f74202d4eaa6">
+    <name>ПериодНачало</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период начало</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="194146d1-7646-4e08-833a-b1a9f2c25620">
+    <name>ПериодКонец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период конец</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e5197be1-1549-4e76-8e20-3e75b5482c25">
+    <name>ПорогОтклонения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порог отклонения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>20</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
 </mdclass:Report>

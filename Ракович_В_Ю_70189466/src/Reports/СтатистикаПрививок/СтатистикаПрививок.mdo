@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac4391fb-7c9e-4034-95e7-c18cdcf7cba0">
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac4391fb-7c9e-4034-95e7-c18cdcf7cba0">
   <producedTypes>
     <objectType typeId="6c49f5ea-063a-442d-80c8-55cb4dc0167d" valueTypeId="24d0fed6-106d-4066-a212-7716106f1c7f"/>
     <managerType typeId="b99e8a5d-1558-4c1e-bba2-e6565097a64c" valueTypeId="f033cae4-744c-4feb-876f-49a1aefc5aaa"/>
@@ -10,4 +10,31 @@
     <value>Статистика прививок</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="a1a42c14-3d92-4fff-8046-ca19639c45c6">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8287de8a-17a6-48b2-a9b7-41b7b4bb9ae7">
+    <name>Группа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Группы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
 </mdclass:Report>

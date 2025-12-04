@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f1be57a-175b-4b21-9d12-76cb79195058">
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f1be57a-175b-4b21-9d12-76cb79195058">
   <producedTypes>
     <objectType typeId="82adae0a-aac3-4842-a512-9057d40c49fb" valueTypeId="8bcbac12-74cb-44dd-bae7-ad1891ecfcda"/>
     <managerType typeId="a6a8efbe-d5a3-42f1-8513-d18bb5cc238b" valueTypeId="bd53ceff-2e66-45dc-ae33-e4528c5c2bff"/>
@@ -10,4 +10,46 @@
     <value>Посещаемость по периодам</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="7d49cfa7-d9a6-4c0e-9a35-ecee43da85e3">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="89f7551b-89a0-45d0-aa68-f14ce787a289">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="41579312-c864-43d2-980f-2f9c9a4eaffc">
+    <name>Группа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Группы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
 </mdclass:Report>

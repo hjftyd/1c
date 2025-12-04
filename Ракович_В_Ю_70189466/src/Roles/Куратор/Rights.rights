@@ -4,6 +4,13 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>Document.ОтсутствиеСтудента</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Configuration.Ракович_В_Ю_70189466</name>
 		<right>
 			<name>ThinClient</name>
@@ -39,6 +46,20 @@
 		</right>
 		<right>
 			<name>SaveUserData</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Студенты</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ИнцидентСоЗдоровьем</name>
+		<right>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>
